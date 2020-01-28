@@ -1,0 +1,75 @@
+"0","```r
+library(radiant.multivariate)
+```"
+"1","Loading required package: radiant.data
+Loading required package: magrittr
+Loading required package: ggplot2
+Loading required package: lubridate
+
+Attaching package: ‘lubridate’
+
+The following object is masked from ‘package:base’:
+
+    date
+
+Loading required package: tidyr
+
+Attaching package: ‘tidyr’
+
+The following object is masked from ‘package:magrittr’:
+
+    extract
+
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:lubridate’:
+
+    intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘radiant.data’
+
+The following objects are masked from ‘package:lubridate’:
+
+    month, wday
+
+The following object is masked from ‘package:ggplot2’:
+
+    diamonds
+"
+"0","```r
+result <- pre_factor(
+  boats, 
+  vars = c(
+    \"Q_1\", \"Q_2\", \"Q_3\", \"Q_4\", \"Q_5\", \"Q_6\", \"Q_7\", \"Q_8\", 
+    \"Q_9\", \"Q_10\", \"Q_11\", \"Q_12\", \"Q_13\", \"Q_14\", \"Q_15\", \"Q_16\", 
+    \"Q_17\", \"Q_18\", \"Q_19\", \"Q_20\", \"Q_21\", \"Q_22\", \"Q_23\", 
+    \"Q_24\", \"Q_25\", \"Q_26\", \"Q_27\"
+  )
+)
+summary(result, dec = 2)
+```"
+"1","Pre-factor analysis diagnostics
+Data        : boats 
+Variables   : Q_1, Q_2, Q_3, Q_4, Q_5, Q_6, Q_7, Q_8, Q_9, Q_10, Q_11, Q_12, Q_13, Q_14, Q_15, Q_16, Q_17, Q_18, Q_19, Q_20, Q_21, Q_22, Q_23, Q_24, Q_25, Q_26, Q_27 
+Observations: 2,813 
+
+Bartlett test
+Null hyp. : variables are not correlated
+Alt. hyp. : variables are correlated
+Chi-square: 31359.44 df(351), p.value < .001
+
+KMO test:  0.97 
+
+Variable collinearity:
+"

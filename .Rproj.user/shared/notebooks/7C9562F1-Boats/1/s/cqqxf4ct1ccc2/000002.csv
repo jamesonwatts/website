@@ -1,0 +1,17 @@
+"0","```r
+result <- hclus(
+  brands, 
+  vars = c(\"Convenient.mean\",\"Cool.mean\",\"Reliable.mean\")
+)
+summary(result)
+```"
+"1","Hierarchical cluster analysis
+Data        : brands 
+Variables   : Convenient.mean, Cool.mean, Reliable.mean 
+Method      : ward.D 
+Distance    : sq.euclidian 
+Observations: 57 
+"
+"0","```r
+plot(result, plots = c(\"scree\", \"change\"), custom = FALSE)
+```"

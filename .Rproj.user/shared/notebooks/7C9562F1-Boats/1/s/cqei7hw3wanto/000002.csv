@@ -1,0 +1,12 @@
+"0","```r
+brandcls <- summaryBy(Convenient.mean + Cool.mean + Reliable.mean ~ Cluster, data=brands)
+names(brandcls)[names(brandcls) == 'Convenient.mean.mean'] <- 'Convenient'
+names(brandcls)[names(brandcls) == 'Cool.mean.mean'] <- 'Cool'
+names(brandcls)[names(brandcls) == 'Reliable.mean.mean'] <- 'Reliable'
+for (row in 1:nrow(brandcls)) {
+  brandcls[row,'Group'] <- paste('B',brandcls[row,'Cluster'],sep=\".\")
+}
+brandcls$Type <- \"Boat\"
+brandcls <- brandcls[,-1]
+head(brandcls)
+```"

@@ -1,0 +1,8 @@
+"0","```r
+p <- plot_ly(brands, x = ~Convenient.mean, y = ~Cool.mean, z = ~Reliable.mean, color = ~Cluster) %>%
+  add_markers() %>%
+  layout(scene = list(xaxis = list(title = 'Convenient'),
+                     yaxis = list(title = 'Cool'),
+                     zaxis = list(title = 'Reliable')))
+p
+```"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>k-means on Jameson Watts, Ph.D.</title>
+    <link>/tags/k-means/</link>
+    <description>Recent content in k-means on Jameson Watts, Ph.D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/k-means/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Craven Speed Clusters</title>
+      <link>/post/craven-speed-clusters/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/craven-speed-clusters/</guid>
+      <description>library(reticulate) use_python(&amp;quot;/Applications/anaconda/bin/python&amp;quot;, required = TRUE) print(&amp;quot;Hello World&amp;quot;) ## Hello World import pandas as pd dfi = pd.read_csv(&amp;#39;/Users/jwatts/Dropbox/website/private/ECommerce.csv&amp;#39;) print(dfi.describe) ## &amp;lt;bound method NDFrame.describe of cid orders avg_order_size ... last_order recency longevity ## 0 142 85 602.441294 ... 8/20/18 2 336 ## 1 158 5 130.362000 ... 6/21/18 62 105 ## 2 297 2 206.105000 ... 8/21/18 1 286 ## 3 352 4 98.860000 ... 5/10/18 104 205 ## 4 417 2 37.</description>
+    </item>
+    
+  </channel>
+</rss>

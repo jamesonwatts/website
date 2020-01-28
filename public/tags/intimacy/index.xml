@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>intimacy on Jameson Watts, Ph.D.</title>
+    <link>/tags/intimacy/</link>
+    <description>Recent content in intimacy on Jameson Watts, Ph.D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 15 Mar 2016 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/intimacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Strangers you may know: social surveillance and intimacy online</title>
+      <link>/publication/strangers-you-may-know/</link>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/strangers-you-may-know/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

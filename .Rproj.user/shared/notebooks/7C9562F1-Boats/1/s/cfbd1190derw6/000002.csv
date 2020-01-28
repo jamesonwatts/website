@@ -1,0 +1,9 @@
+"0","```r
+setwd(\"~/GDrive/Teaching/GSM-6261/2018fa\")
+```"
+"1","The working directory was changed to /Users/jwatts/GDrive/Teaching/GSM-6261/2018fa inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the working directory for notebook chunks.
+"
+"0","```r
+boats <- read.csv(\"./resources/Boats_Abbr.csv\")
+head(boats)
+```"

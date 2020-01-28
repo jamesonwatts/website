@@ -1,0 +1,5 @@
+"0","```r
+library(doBy)
+brands <- summaryBy(Convenient + Cool + Reliable ~ Brand, data=boats)
+head(brands)
+```"

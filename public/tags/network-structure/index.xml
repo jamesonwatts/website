@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network structure on Jameson Watts, Ph.D.</title>
+    <link>/tags/network-structure/</link>
+    <description>Recent content in network structure on Jameson Watts, Ph.D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 01 Nov 2016 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/network-structure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When online visibility deters social interaction: The case of digital gifts</title>
+      <link>/publication/online-visibility/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/online-visibility/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

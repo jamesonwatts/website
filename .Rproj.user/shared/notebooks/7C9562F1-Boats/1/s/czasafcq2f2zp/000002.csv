@@ -1,0 +1,39 @@
+"0","```r
+library(plotly)
+```"
+"1","
+Attaching package: ‘plotly’
+
+The following objects are masked from ‘package:radiant.data’:
+
+    ggplotly, subplot
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+"
+"0","```r
+p <- plot_ly(brands, x = ~Convenient.mean, y = ~Cool.mean, z = ~Reliable.mean, color = ~Brand) %>%
+  add_markers() %>%
+  layout(scene = list(xaxis = list(title = 'Convenient'),
+                     yaxis = list(title = 'Cool'),
+                     zaxis = list(title = 'Reliable')))
+p
+```"
+"1","n too large, allowed maximum for palette Set2 is 8
+Returning the palette you asked for with that many colors
+n too large, allowed maximum for palette Set2 is 8
+Returning the palette you asked for with that many colors
+n too large, allowed maximum for palette Set2 is 8
+Returning the palette you asked for with that many colors
+n too large, allowed maximum for palette Set2 is 8
+Returning the palette you asked for with that many colors
+"

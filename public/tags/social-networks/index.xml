@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>social networks on Jameson Watts, Ph.D.</title>
+    <link>/tags/social-networks/</link>
+    <description>Recent content in social networks on Jameson Watts, Ph.D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 03 Nov 2015 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="/tags/social-networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Social Visibility and the Gifting of Digital Goods</title>
+      <link>/publication/social-visibility/</link>
+      <pubDate>Tue, 03 Nov 2015 00:00:00 -0800</pubDate>
+      
+      <guid>/publication/social-visibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supple Networks: Preferential Attachment by diversity in nascent social graphs</title>
+      <link>/publication/supple-networks/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 -0800</pubDate>
+      
+      <guid>/publication/supple-networks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

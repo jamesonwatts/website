@@ -1,0 +1,14 @@
+"0","```r
+p <- plot_ly(comb, x = ~Convenient, y = ~Cool, z = ~Reliable, mode = 'markers', symbols = c('x','circle'), symbol = ~Type, color = ~Group) %>%
+  layout(scene = list(xaxis = list(title = 'Convenient'),
+                     yaxis = list(title = 'Cool'),
+                     zaxis = list(title = 'Reliable')))
+p
+```"
+"1","No trace type specified:
+  Based on info supplied, a 'scatter3d' trace seems appropriate.
+  Read more about this trace type -> https://plot.ly/r/reference/#scatter3d
+No trace type specified:
+  Based on info supplied, a 'scatter3d' trace seems appropriate.
+  Read more about this trace type -> https://plot.ly/r/reference/#scatter3d
+"

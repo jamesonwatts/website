@@ -1,0 +1,1245 @@
+[Kmacbook-bro:jamesonwatts.github.io jwatts$ ls
+config.toml			jamesonwatts.github.io.Rproj	static
+content				public				themes
+index.Rmd			resources
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls -a
+.				.git				jamesonwatts.github.io.Rproj
+..				.gitignore			public
+.DS_Store			.nojekyll			resources
+.RData				config.toml			static
+.Rhistory			content				themes
+.Rproj.user			index.Rmd
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm -rf .git
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm -f[Krf .gitignore 
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ l[Kmv .nojekyll public
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls -a
+.				.Rproj.user			public
+..				config.toml			resources
+.DS_Store			content				static
+.RData				index.Rmd			themes
+.Rhistory			jamesonwatts.github.io.Rproj
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ cd public
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ ls
+404.html		index.html		project			styles.css
+categories		index.json		publication		tags
+css			index.xml		publication_types	talk
+files			js			site.webmanifest	tutorial
+home			post			sitemap.xml
+img			privacy			slides
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ git init
+Initialized empty Git repository in /Users/jwatts/Repos/jamesonwatts.github.io/public/.git/
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ git remote add origin https://github.com/username/username.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.iow.github.ioa.github.iot.github.iot.github.ios.github.io
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ git clone https://github.com/username/username.github.io[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/username/jamesonwatts.github.io[1P/jamesonwatts.github.io[1P/jamesonwatts.github.io[1P/jamesonwatts.github.io[1P/jamesonwatts.github.io[1P/jamesonwatts.github.io[1P/jamesonwatts.github.io[1P/jamesonwatts.github.io[1P/jamesonwatts.github.ioj/jamesonwatts.github.ioa/jamesonwatts.github.iom/jamesonwatts.github.ioe/jamesonwatts.github.ios/jamesonwatts.github.ioo/jamesonwatts.github.ion/jamesonwatts.github.iow/jamesonwatts.github.ioa/jamesonwatts.github.iot/jamesonwatts.github.iot/jamesonwatts.github.ios/jamesonwatts.github.io
+fatal: remote origin already exists.
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ ls -a
+.			css			js			sitemap.xml
+..			files			post			slides
+.DS_Store		home			privacy			styles.css
+.git			img			project			tags
+.nojekyll		index.html		publication		talk
+404.html		index.json		publication_types	tutorial
+categories		index.xml		site.webmanifest
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ rm -rf .git/
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ rm -rf .git/[7Pls -agit remote add origin https://github.com/jamesonwatts/jamesonwatts.github.io[4Pusername/jamesonwatts.github.io[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[K
+Initialized empty Git repository in /Users/jwatts/Repos/jamesonwatts.github.io/public/.git/
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ git initrm -rf .git/[7Pls -agit remote add origin https://github.com/jamesonwatts/jamesonwatts.github.io
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ git clone https://github.com/username/username.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.iow.github.ioa.github.iot.github.iot.github.ios.github.io/.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.iow.github.ioa.github.iot.github.iot.github.ios.github.io
+Cloning into 'jamesonwatts.github.io'...
+remote: Enumerating objects: 609, done.[K
+remote: Counting objects:   0% (1/609)   [Kremote: Counting objects:   1% (7/609)   [Kremote: Counting objects:   2% (13/609)   [Kremote: Counting objects:   3% (19/609)   [Kremote: Counting objects:   4% (25/609)   [Kremote: Counting objects:   5% (31/609)   [Kremote: Counting objects:   6% (37/609)   [Kremote: Counting objects:   7% (43/609)   [Kremote: Counting objects:   8% (49/609)   [Kremote: Counting objects:   9% (55/609)   [Kremote: Counting objects:  10% (61/609)   [Kremote: Counting objects:  11% (67/609)   [Kremote: Counting objects:  12% (74/609)   [Kremote: Counting objects:  13% (80/609)   [Kremote: Counting objects:  14% (86/609)   [Kremote: Counting objects:  15% (92/609)   [Kremote: Counting objects:  16% (98/609)   [Kremote: Counting objects:  17% (104/609)   [Kremote: Counting objects:  18% (110/609)   [Kremote: Counting objects:  19% (116/609)   [Kremote: Counting objects:  20% (122/609)   [Kremote: Counting objects:  21% (128/609)   [Kremote: Counting objects:  22% (134/609)   [Kremote: Counting objects:  23% (141/609)   [Kremote: Counting objects:  24% (147/609)   [Kremote: Counting objects:  25% (153/609)   [Kremote: Counting objects:  26% (159/609)   [Kremote: Counting objects:  27% (165/609)   [Kremote: Counting objects:  28% (171/609)   [Kremote: Counting objects:  29% (177/609)   [Kremote: Counting objects:  30% (183/609)   [Kremote: Counting objects:  31% (189/609)   [Kremote: Counting objects:  32% (195/609)   [Kremote: Counting objects:  33% (201/609)   [Kremote: Counting objects:  34% (208/609)   [Kremote: Counting objects:  35% (214/609)   [Kremote: Counting objects:  36% (220/609)   [Kremote: Counting objects:  37% (226/609)   [Kremote: Counting objects:  38% (232/609)   [Kremote: Counting objects:  39% (238/609)   [Kremote: Counting objects:  40% (244/609)   [Kremote: Counting objects:  41% (250/609)   [Kremote: Counting objects:  42% (256/609)   [Kremote: Counting objects:  43% (262/609)   [Kremote: Counting objects:  44% (268/609)   [Kremote: Counting objects:  45% (275/609)   [Kremote: Counting objects:  46% (281/609)   [Kremote: Counting objects:  47% (287/609)   [Kremote: Counting objects:  48% (293/609)   [Kremote: Counting objects:  49% (299/609)   [Kremote: Counting objects:  50% (305/609)   [Kremote: Counting objects:  51% (311/609)   [Kremote: Counting objects:  52% (317/609)   [Kremote: Counting objects:  53% (323/609)   [Kremote: Counting objects:  54% (329/609)   [Kremote: Counting objects:  55% (335/609)   [Kremote: Counting objects:  56% (342/609)   [Kremote: Counting objects:  57% (348/609)   [Kremote: Counting objects:  58% (354/609)   [Kremote: Counting objects:  59% (360/609)   [Kremote: Counting objects:  60% (366/609)   [Kremote: Counting objects:  61% (372/609)   [Kremote: Counting objects:  62% (378/609)   [Kremote: Counting objects:  63% (384/609)   [Kremote: Counting objects:  64% (390/609)   [Kremote: Counting objects:  65% (396/609)   [Kremote: Counting objects:  66% (402/609)   [Kremote: Counting objects:  67% (409/609)   [Kremote: Counting objects:  68% (415/609)   [Kremote: Counting objects:  69% (421/609)   [Kremote: Counting objects:  70% (427/609)   [Kremote: Counting objects:  71% (433/609)   [Kremote: Counting objects:  72% (439/609)   [Kremote: Counting objects:  73% (445/609)   [Kremote: Counting objects:  74% (451/609)   [Kremote: Counting objects:  75% (457/609)   [Kremote: Counting objects:  76% (463/609)   [Kremote: Counting objects:  77% (469/609)   [Kremote: Counting objects:  78% (476/609)   [Kremote: Counting objects:  79% (482/609)   [Kremote: Counting objects:  80% (488/609)   [Kremote: Counting objects:  81% (494/609)   [Kremote: Counting objects:  82% (500/609)   [Kremote: Counting objects:  83% (506/609)   [Kremote: Counting objects:  84% (512/609)   [Kremote: Counting objects:  85% (518/609)   [Kremote: Counting objects:  86% (524/609)   [Kremote: Counting objects:  87% (530/609)   [Kremote: Counting objects:  88% (536/609)   [Kremote: Counting objects:  89% (543/609)   [Kremote: Counting objects:  90% (549/609)   [Kremote: Counting objects:  91% (555/609)   [Kremote: Counting objects:  92% (561/609)   [Kremote: Counting objects:  93% (567/609)   [Kremote: Counting objects:  94% (573/609)   [Kremote: Counting objects:  95% (579/609)   [Kremote: Counting objects:  96% (585/609)   [Kremote: Counting objects:  97% (591/609)   [Kremote: Counting objects:  98% (597/609)   [Kremote: Counting objects:  99% (603/609)   [Kremote: Counting objects: 100% (609/609)   [Kremote: Counting objects: 100% (609/609), done.[K
+remote: Compressing objects:   0% (1/399)   [Kremote: Compressing objects:   1% (4/399)   [Kremote: Compressing objects:   2% (8/399)   [Kremote: Compressing objects:   3% (12/399)   [Kremote: Compressing objects:   4% (16/399)   [Kremote: Compressing objects:   5% (20/399)   [Kremote: Compressing objects:   6% (24/399)   [Kremote: Compressing objects:   7% (28/399)   [Kremote: Compressing objects:   8% (32/399)   [Kremote: Compressing objects:   9% (36/399)   [Kremote: Compressing objects:  10% (40/399)   [Kremote: Compressing objects:  11% (44/399)   [Kremote: Compressing objects:  12% (48/399)   [Kremote: Compressing objects:  13% (52/399)   [Kremote: Compressing objects:  14% (56/399)   [Kremote: Compressing objects:  15% (60/399)   [Kremote: Compressing objects:  16% (64/399)   [Kremote: Compressing objects:  17% (68/399)   [Kremote: Compressing objects:  18% (72/399)   [Kremote: Compressing objects:  19% (76/399)   [Kremote: Compressing objects:  20% (80/399)   [Kremote: Compressing objects:  21% (84/399)   [Kremote: Compressing objects:  22% (88/399)   [Kremote: Compressing objects:  23% (92/399)   [Kremote: Compressing objects:  24% (96/399)   [Kremote: Compressing objects:  25% (100/399)   [Kremote: Compressing objects:  26% (104/399)   [Kremote: Compressing objects:  27% (108/399)   [Kremote: Compressing objects:  28% (112/399)   [Kremote: Compressing objects:  29% (116/399)   [Kremote: Compressing objects:  30% (120/399)   [Kremote: Compressing objects:  31% (124/399)   [Kremote: Compressing objects:  32% (128/399)   [Kremote: Compressing objects:  33% (132/399)   [Kremote: Compressing objects:  34% (136/399)   [Kremote: Compressing objects:  35% (140/399)   [Kremote: Compressing objects:  36% (144/399)   [Kremote: Compressing objects:  37% (148/399)   [Kremote: Compressing objects:  38% (152/399)   [Kremote: Compressing objects:  39% (156/399)   [Kremote: Compressing objects:  40% (160/399)   [Kremote: Compressing objects:  41% (164/399)   [Kremote: Compressing objects:  42% (168/399)   [Kremote: Compressing objects:  43% (172/399)   [Kremote: Compressing objects:  44% (176/399)   [Kremote: Compressing objects:  45% (180/399)   [Kremote: Compressing objects:  46% (184/399)   [Kremote: Compressing objects:  47% (188/399)   [Kremote: Compressing objects:  48% (192/399)   [Kremote: Compressing objects:  49% (196/399)   [Kremote: Compressing objects:  50% (200/399)   [Kremote: Compressing objects:  51% (204/399)   [Kremote: Compressing objects:  52% (208/399)   [Kremote: Compressing objects:  53% (212/399)   [Kremote: Compressing objects:  54% (216/399)   [Kremote: Compressing objects:  55% (220/399)   [Kremote: Compressing objects:  56% (224/399)   [Kremote: Compressing objects:  57% (228/399)   [Kremote: Compressing objects:  58% (232/399)   [Kremote: Compressing objects:  59% (236/399)   [Kremote: Compressing objects:  60% (240/399)   [Kremote: Compressing objects:  61% (244/399)   [Kremote: Compressing objects:  62% (248/399)   [Kremote: Compressing objects:  63% (252/399)   [Kremote: Compressing objects:  64% (256/399)   [Kremote: Compressing objects:  65% (260/399)   [Kremote: Compressing objects:  66% (264/399)   [Kremote: Compressing objects:  67% (268/399)   [Kremote: Compressing objects:  68% (272/399)   [Kremote: Compressing objects:  69% (276/399)   [Kremote: Compressing objects:  70% (280/399)   [Kremote: Compressing objects:  71% (284/399)   [Kremote: Compressing objects:  72% (288/399)   [Kremote: Compressing objects:  73% (292/399)   [Kremote: Compressing objects:  74% (296/399)   [Kremote: Compressing objects:  75% (300/399)   [Kremote: Compressing objects:  76% (304/399)   [Kremote: Compressing objects:  77% (308/399)   [Kremote: Compressing objects:  78% (312/399)   [Kremote: Compressing objects:  79% (316/399)   [Kremote: Compressing objects:  80% (320/399)   [Kremote: Compressing objects:  81% (324/399)   [Kremote: Compressing objects:  82% (328/399)   [Kremote: Compressing objects:  83% (332/399)   [Kremote: Compressing objects:  84% (336/399)   [Kremote: Compressing objects:  85% (340/399)   [Kremote: Compressing objects:  86% (344/399)   [Kremote: Compressing objects:  87% (348/399)   [Kremote: Compressing objects:  88% (352/399)   [Kremote: Compressing objects:  89% (356/399)   [Kremote: Compressing objects:  90% (360/399)   [Kremote: Compressing objects:  91% (364/399)   [Kremote: Compressing objects:  92% (368/399)   [Kremote: Compressing objects:  93% (372/399)   [Kremote: Compressing objects:  94% (376/399)   [Kremote: Compressing objects:  95% (380/399)   [Kremote: Compressing objects:  96% (384/399)   [Kremote: Compressing objects:  97% (388/399)   [Kremote: Compressing objects:  98% (392/399)   [Kremote: Compressing objects:  99% (396/399)   [Kremote: Compressing objects: 100% (399/399)   [Kremote: Compressing objects: 100% (399/399), done.[K
+Receiving objects:   0% (1/609)   Receiving objects:   1% (7/609)   Receiving objects:   2% (13/609)   Receiving objects:   3% (19/609)   Receiving objects:   4% (25/609)   Receiving objects:   5% (31/609)   Receiving objects:   6% (37/609)   Receiving objects:   7% (43/609)   Receiving objects:   8% (49/609)   Receiving objects:   9% (55/609)   Receiving objects:  10% (61/609)   Receiving objects:  11% (67/609)   Receiving objects:  12% (74/609)   Receiving objects:  13% (80/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  14% (86/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  15% (92/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  16% (98/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  17% (104/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  18% (110/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  19% (116/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  20% (122/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  21% (128/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  22% (134/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  23% (141/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  24% (147/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  25% (153/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  26% (159/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  27% (165/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  28% (171/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  29% (177/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  30% (183/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  31% (189/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  32% (195/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  33% (201/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  34% (208/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  35% (214/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  36% (220/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  37% (226/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  38% (232/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  39% (238/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  40% (244/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  41% (250/609), 1.43 MiB | 2.86 MiB/s   Receiving objects:  41% (251/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  42% (256/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  43% (262/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  44% (268/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  45% (275/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  46% (281/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  47% (287/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  48% (293/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  49% (299/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  50% (305/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  51% (311/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  52% (317/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  53% (323/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  54% (329/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  55% (335/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  56% (342/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  57% (348/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  58% (354/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  59% (360/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  60% (366/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  61% (372/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  62% (378/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  63% (384/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  64% (390/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  65% (396/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  66% (402/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  67% (409/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  68% (415/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  69% (421/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  70% (427/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  71% (433/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  72% (439/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  73% (445/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  74% (451/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  75% (457/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  76% (463/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  77% (469/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  78% (476/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  79% (482/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  80% (488/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  81% (494/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  82% (500/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  83% (506/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  84% (512/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  85% (518/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  86% (524/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  87% (530/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  88% (536/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  89% (543/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  90% (549/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  91% (555/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  92% (561/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  93% (567/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  94% (573/609), 3.86 MiB | 3.85 MiB/s   remote: Total 609 (delta 144), reused 589 (delta 130), pack-reused 0[K
+Receiving objects:  95% (579/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  96% (585/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  97% (591/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  98% (597/609), 3.86 MiB | 3.85 MiB/s   Receiving objects:  99% (603/609), 3.86 MiB | 3.85 MiB/s   Receiving objects: 100% (609/609), 3.86 MiB | 3.85 MiB/s   Receiving objects: 100% (609/609), 5.21 MiB | 3.85 MiB/s, done.
+Resolving deltas:   0% (0/144)   Resolving deltas:   1% (2/144)   Resolving deltas:   2% (3/144)   Resolving deltas:   3% (5/144)   Resolving deltas:   4% (6/144)   Resolving deltas:   6% (9/144)   Resolving deltas:   7% (11/144)   Resolving deltas:   8% (12/144)   Resolving deltas:   9% (13/144)   Resolving deltas:  10% (15/144)   Resolving deltas:  11% (16/144)   Resolving deltas:  29% (42/144)   Resolving deltas:  30% (44/144)   Resolving deltas:  31% (46/144)   Resolving deltas:  33% (48/144)   Resolving deltas:  34% (49/144)   Resolving deltas:  36% (53/144)   Resolving deltas:  37% (54/144)   Resolving deltas:  38% (55/144)   Resolving deltas:  41% (60/144)   Resolving deltas:  44% (64/144)   Resolving deltas:  45% (65/144)   Resolving deltas:  46% (67/144)   Resolving deltas:  47% (68/144)   Resolving deltas:  48% (70/144)   Resolving deltas:  50% (72/144)   Resolving deltas:  51% (74/144)   Resolving deltas:  52% (75/144)   Resolving deltas:  53% (77/144)   Resolving deltas:  54% (78/144)   Resolving deltas:  57% (83/144)   Resolving deltas:  60% (87/144)   Resolving deltas:  61% (88/144)   Resolving deltas:  62% (90/144)   Resolving deltas:  63% (91/144)   Resolving deltas:  65% (95/144)   Resolving deltas:  67% (97/144)   Resolving deltas:  68% (98/144)   Resolving deltas:  69% (100/144)   Resolving deltas:  70% (102/144)   Resolving deltas:  71% (103/144)   Resolving deltas:  72% (104/144)   Resolving deltas:  74% (107/144)   Resolving deltas:  77% (111/144)   Resolving deltas:  79% (115/144)   Resolving deltas:  81% (117/144)   Resolving deltas:  82% (119/144)   Resolving deltas:  84% (121/144)   Resolving deltas:  86% (124/144)   Resolving deltas:  87% (126/144)   Resolving deltas:  90% (131/144)   Resolving deltas:  92% (133/144)   Resolving deltas:  94% (136/144)   Resolving deltas:  95% (138/144)   Resolving deltas:  96% (139/144)   Resolving deltas:  97% (140/144)   Resolving deltas:  98% (142/144)   Resolving deltas:  99% (143/144)   Resolving deltas: 100% (144/144)   Resolving deltas: 100% (144/144), done.
+Checking connectivity... done.
+]0;~/Repos/jamesonwatts.github.io/publicmacbook-bro:public jwatts$ git clone https://github.com/jamesonwatts/jamesonwatts.github.io[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12@remote add origin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[Krm -rf .git/
+ls
+config.toml	index.Rmd	resources	themes
+content		public		static		website.Rproj
+]0;~/Repos/websitemacbook-bro:website jwatts$ cd [K[K[Klsbundle exec jekyll servels[K[Kcd public/
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ git init
+Initialized empty Git repository in /Users/jwatts/Repos/website/public/.git/
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ git remote add origin https://github.com/username/username.github.io[C[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.iow.github.ioa.github.iot.github.iot.github.ios.github.io/.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.io[C.github.iow.github.ioa.github.io[1P.github.io[1P.github.io[1Pgithub.iow.github.ioa.github.iot.github.iot.github.ios.github.io
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ git co[K[K[K[K[K[Ktouch .nojekyll
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ la[Ks -a
+.			css			js			sitemap.xml
+..			files			post			slides
+.DS_Store		home			privacy			styles.css
+.git			img			project			tags
+.nojekyll		index.html		publication		talk
+404.html		index.json		publication_types	tutorial
+categories		index.xml		site.webmanifest
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ git commit -m "yada"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.nojekyll[m
+	[31m404.html[m
+	[31mcategories/[m
+	[31mcss/[m
+	[31mfiles/[m
+	[31mhome/[m
+	[31mimg/[m
+	[31mindex.html[m
+	[31mindex.json[m
+	[31mindex.xml[m
+	[31mjs/[m
+	[31mpost/[m
+	[31mprivacy/[m
+	[31mproject/[m
+	[31mpublication/[m
+	[31mpublication_types/[m
+	[31msite.webmanifest[m
+	[31msitemap.xml[m
+	[31mslides/[m
+	[31mstyles.css[m
+	[31mtags/[m
+	[31mtalk/[m
+	[31mtutorial/[m
+
+nothing added to commit but untracked files present
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ git pull origin master
+From https://github.com/jamesonwatts/jamesonwatts.github.io
+ * branch            master     -> FETCH_HEAD
+ls
+404.html		index.html		project			styles.css
+categories		index.json		publication		tags
+css			index.xml		publication_types	talk
+files			js			site.webmanifest	tutorial
+home			post			sitemap.xml
+img			privacy			slides
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ cd [K[K[Kcd ..
+]0;~/Repos/websitemacbook-bro:website jwatts$ ls
+config.toml	index.Rmd	resources	themes
+content		public		static		website.Rproj
+]0;~/Repos/websitemacbook-bro:website jwatts$ cd public/
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ ls
+404.html		index.html		project			styles.css
+categories		index.json		publication		tags
+css			index.xml		publication_types	talk
+files			js			site.webmanifest	tutorial
+home			post			sitemap.xml
+img			privacy			slides
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ ls -a
+.			css			js			sitemap.xml
+..			files			post			slides
+.DS_Store		home			privacy			styles.css
+.git			img			project			tags
+.nojekyll		index.html		publication		talk
+404.html		index.json		publication_types	tutorial
+categories		index.xml		site.webmanifest
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ rm -rf .git/
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ ls
+404.html		index.html		project			styles.css
+categories		index.json		publication		tags
+css			index.xml		publication_types	talk
+files			js			site.webmanifest	tutorial
+home			post			sitemap.xml
+img			privacy			slides
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ cd ..
+]0;~/Repos/websitemacbook-bro:website jwatts$ cd ..
+]0;~/Reposmacbook-bro:Repos jwatts$ ls
+website
+]0;~/Reposmacbook-bro:Repos jwatts$ mkdir temp
+]0;~/Reposmacbook-bro:Repos jwatts$ ls
+temp	website
+]0;~/Reposmacbook-bro:Repos jwatts$ git clone https://github.com/username/username.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.io/.github.io[1P.github.iow.github.ioa.github.iot.github.iot.github.ios.github.io/.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.iow.github.ioa.github.iot.github.iot.github.ios.github.io
+Cloning into 'jamesonwatts.github.io'...
+remote: Enumerating objects: 609, done.[K
+remote: Counting objects:   0% (1/609)   [Kremote: Counting objects:   1% (7/609)   [Kremote: Counting objects:   2% (13/609)   [Kremote: Counting objects:   3% (19/609)   [Kremote: Counting objects:   4% (25/609)   [Kremote: Counting objects:   5% (31/609)   [Kremote: Counting objects:   6% (37/609)   [Kremote: Counting objects:   7% (43/609)   [Kremote: Counting objects:   8% (49/609)   [Kremote: Counting objects:   9% (55/609)   [Kremote: Counting objects:  10% (61/609)   [Kremote: Counting objects:  11% (67/609)   [Kremote: Counting objects:  12% (74/609)   [Kremote: Counting objects:  13% (80/609)   [Kremote: Counting objects:  14% (86/609)   [Kremote: Counting objects:  15% (92/609)   [Kremote: Counting objects:  16% (98/609)   [Kremote: Counting objects:  17% (104/609)   [Kremote: Counting objects:  18% (110/609)   [Kremote: Counting objects:  19% (116/609)   [Kremote: Counting objects:  20% (122/609)   [Kremote: Counting objects:  21% (128/609)   [Kremote: Counting objects:  22% (134/609)   [Kremote: Counting objects:  23% (141/609)   [Kremote: Counting objects:  24% (147/609)   [Kremote: Counting objects:  25% (153/609)   [Kremote: Counting objects:  26% (159/609)   [Kremote: Counting objects:  27% (165/609)   [Kremote: Counting objects:  28% (171/609)   [Kremote: Counting objects:  29% (177/609)   [Kremote: Counting objects:  30% (183/609)   [Kremote: Counting objects:  31% (189/609)   [Kremote: Counting objects:  32% (195/609)   [Kremote: Counting objects:  33% (201/609)   [Kremote: Counting objects:  34% (208/609)   [Kremote: Counting objects:  35% (214/609)   [Kremote: Counting objects:  36% (220/609)   [Kremote: Counting objects:  37% (226/609)   [Kremote: Counting objects:  38% (232/609)   [Kremote: Counting objects:  39% (238/609)   [Kremote: Counting objects:  40% (244/609)   [Kremote: Counting objects:  41% (250/609)   [Kremote: Counting objects:  42% (256/609)   [Kremote: Counting objects:  43% (262/609)   [Kremote: Counting objects:  44% (268/609)   [Kremote: Counting objects:  45% (275/609)   [Kremote: Counting objects:  46% (281/609)   [Kremote: Counting objects:  47% (287/609)   [Kremote: Counting objects:  48% (293/609)   [Kremote: Counting objects:  49% (299/609)   [Kremote: Counting objects:  50% (305/609)   [Kremote: Counting objects:  51% (311/609)   [Kremote: Counting objects:  52% (317/609)   [Kremote: Counting objects:  53% (323/609)   [Kremote: Counting objects:  54% (329/609)   [Kremote: Counting objects:  55% (335/609)   [Kremote: Counting objects:  56% (342/609)   [Kremote: Counting objects:  57% (348/609)   [Kremote: Counting objects:  58% (354/609)   [Kremote: Counting objects:  59% (360/609)   [Kremote: Counting objects:  60% (366/609)   [Kremote: Counting objects:  61% (372/609)   [Kremote: Counting objects:  62% (378/609)   [Kremote: Counting objects:  63% (384/609)   [Kremote: Counting objects:  64% (390/609)   [Kremote: Counting objects:  65% (396/609)   [Kremote: Counting objects:  66% (402/609)   [Kremote: Counting objects:  67% (409/609)   [Kremote: Counting objects:  68% (415/609)   [Kremote: Counting objects:  69% (421/609)   [Kremote: Counting objects:  70% (427/609)   [Kremote: Counting objects:  71% (433/609)   [Kremote: Counting objects:  72% (439/609)   [Kremote: Counting objects:  73% (445/609)   [Kremote: Counting objects:  74% (451/609)   [Kremote: Counting objects:  75% (457/609)   [Kremote: Counting objects:  76% (463/609)   [Kremote: Counting objects:  77% (469/609)   [Kremote: Counting objects:  78% (476/609)   [Kremote: Counting objects:  79% (482/609)   [Kremote: Counting objects:  80% (488/609)   [Kremote: Counting objects:  81% (494/609)   [Kremote: Counting objects:  82% (500/609)   [Kremote: Counting objects:  83% (506/609)   [Kremote: Counting objects:  84% (512/609)   [Kremote: Counting objects:  85% (518/609)   [Kremote: Counting objects:  86% (524/609)   [Kremote: Counting objects:  87% (530/609)   [Kremote: Counting objects:  88% (536/609)   [Kremote: Counting objects:  89% (543/609)   [Kremote: Counting objects:  90% (549/609)   [Kremote: Counting objects:  91% (555/609)   [Kremote: Counting objects:  92% (561/609)   [Kremote: Counting objects:  93% (567/609)   [Kremote: Counting objects:  94% (573/609)   [Kremote: Counting objects:  95% (579/609)   [Kremote: Counting objects:  96% (585/609)   [Kremote: Counting objects:  97% (591/609)   [Kremote: Counting objects:  98% (597/609)   [Kremote: Counting objects:  99% (603/609)   [Kremote: Counting objects: 100% (609/609)   [Kremote: Counting objects: 100% (609/609), done.[K
+remote: Compressing objects:   0% (1/399)   [Kremote: Compressing objects:   1% (4/399)   [Kremote: Compressing objects:   2% (8/399)   [Kremote: Compressing objects:   3% (12/399)   [Kremote: Compressing objects:   4% (16/399)   [Kremote: Compressing objects:   5% (20/399)   [Kremote: Compressing objects:   6% (24/399)   [Kremote: Compressing objects:   7% (28/399)   [Kremote: Compressing objects:   8% (32/399)   [Kremote: Compressing objects:   9% (36/399)   [Kremote: Compressing objects:  10% (40/399)   [Kremote: Compressing objects:  11% (44/399)   [Kremote: Compressing objects:  12% (48/399)   [Kremote: Compressing objects:  13% (52/399)   [Kremote: Compressing objects:  14% (56/399)   [Kremote: Compressing objects:  15% (60/399)   [Kremote: Compressing objects:  16% (64/399)   [Kremote: Compressing objects:  17% (68/399)   [Kremote: Compressing objects:  18% (72/399)   [Kremote: Compressing objects:  19% (76/399)   [Kremote: Compressing objects:  20% (80/399)   [Kremote: Compressing objects:  21% (84/399)   [Kremote: Compressing objects:  22% (88/399)   [Kremote: Compressing objects:  23% (92/399)   [Kremote: Compressing objects:  24% (96/399)   [Kremote: Compressing objects:  25% (100/399)   [Kremote: Compressing objects:  26% (104/399)   [Kremote: Compressing objects:  27% (108/399)   [Kremote: Compressing objects:  28% (112/399)   [Kremote: Compressing objects:  29% (116/399)   [Kremote: Compressing objects:  30% (120/399)   [Kremote: Compressing objects:  31% (124/399)   [Kremote: Compressing objects:  32% (128/399)   [Kremote: Compressing objects:  33% (132/399)   [Kremote: Compressing objects:  34% (136/399)   [Kremote: Compressing objects:  35% (140/399)   [Kremote: Compressing objects:  36% (144/399)   [Kremote: Compressing objects:  37% (148/399)   [Kremote: Compressing objects:  38% (152/399)   [Kremote: Compressing objects:  39% (156/399)   [Kremote: Compressing objects:  40% (160/399)   [Kremote: Compressing objects:  41% (164/399)   [Kremote: Compressing objects:  42% (168/399)   [Kremote: Compressing objects:  43% (172/399)   [Kremote: Compressing objects:  44% (176/399)   [Kremote: Compressing objects:  45% (180/399)   [Kremote: Compressing objects:  46% (184/399)   [Kremote: Compressing objects:  47% (188/399)   [Kremote: Compressing objects:  48% (192/399)   [Kremote: Compressing objects:  49% (196/399)   [Kremote: Compressing objects:  50% (200/399)   [Kremote: Compressing objects:  51% (204/399)   [Kremote: Compressing objects:  52% (208/399)   [Kremote: Compressing objects:  53% (212/399)   [Kremote: Compressing objects:  54% (216/399)   [Kremote: Compressing objects:  55% (220/399)   [Kremote: Compressing objects:  56% (224/399)   [Kremote: Compressing objects:  57% (228/399)   [Kremote: Compressing objects:  58% (232/399)   [Kremote: Compressing objects:  59% (236/399)   [Kremote: Compressing objects:  60% (240/399)   [Kremote: Compressing objects:  61% (244/399)   [Kremote: Compressing objects:  62% (248/399)   [Kremote: Compressing objects:  63% (252/399)   [Kremote: Compressing objects:  64% (256/399)   [Kremote: Compressing objects:  65% (260/399)   [Kremote: Compressing objects:  66% (264/399)   [Kremote: Compressing objects:  67% (268/399)   [Kremote: Compressing objects:  68% (272/399)   [Kremote: Compressing objects:  69% (276/399)   [Kremote: Compressing objects:  70% (280/399)   [Kremote: Compressing objects:  71% (284/399)   [Kremote: Compressing objects:  72% (288/399)   [Kremote: Compressing objects:  73% (292/399)   [Kremote: Compressing objects:  74% (296/399)   [Kremote: Compressing objects:  75% (300/399)   [Kremote: Compressing objects:  76% (304/399)   [Kremote: Compressing objects:  77% (308/399)   [Kremote: Compressing objects:  78% (312/399)   [Kremote: Compressing objects:  79% (316/399)   [Kremote: Compressing objects:  80% (320/399)   [Kremote: Compressing objects:  81% (324/399)   [Kremote: Compressing objects:  82% (328/399)   [Kremote: Compressing objects:  83% (332/399)   [Kremote: Compressing objects:  84% (336/399)   [Kremote: Compressing objects:  85% (340/399)   [Kremote: Compressing objects:  86% (344/399)   [Kremote: Compressing objects:  87% (348/399)   [Kremote: Compressing objects:  88% (352/399)   [Kremote: Compressing objects:  89% (356/399)   [Kremote: Compressing objects:  90% (360/399)   [Kremote: Compressing objects:  91% (364/399)   [Kremote: Compressing objects:  92% (368/399)   [Kremote: Compressing objects:  93% (372/399)   [Kremote: Compressing objects:  94% (376/399)   [Kremote: Compressing objects:  95% (380/399)   [Kremote: Compressing objects:  96% (384/399)   [Kremote: Compressing objects:  97% (388/399)   [Kremote: Compressing objects:  98% (392/399)   [Kremote: Compressing objects:  99% (396/399)   [Kremote: Compressing objects: 100% (399/399)   [Kremote: Compressing objects: 100% (399/399), done.[K
+Receiving objects:   0% (1/609)   Receiving objects:   1% (7/609)   Receiving objects:   2% (13/609)   Receiving objects:   3% (19/609)   Receiving objects:   4% (25/609)   Receiving objects:   5% (31/609)   Receiving objects:   6% (37/609)   Receiving objects:   7% (43/609)   Receiving objects:   8% (49/609)   Receiving objects:   9% (55/609)   Receiving objects:  10% (61/609)   Receiving objects:  11% (67/609)   Receiving objects:  12% (74/609)   Receiving objects:  13% (80/609)   Receiving objects:  14% (86/609)   Receiving objects:  15% (92/609)   Receiving objects:  16% (98/609)   Receiving objects:  17% (104/609)   Receiving objects:  18% (110/609)   Receiving objects:  19% (116/609)   Receiving objects:  20% (122/609)   Receiving objects:  21% (128/609)   Receiving objects:  22% (134/609)   Receiving objects:  23% (141/609)   Receiving objects:  24% (147/609)   Receiving objects:  25% (153/609)   Receiving objects:  26% (159/609)   Receiving objects:  27% (165/609)   Receiving objects:  28% (171/609)   Receiving objects:  29% (177/609)   Receiving objects:  30% (183/609)   Receiving objects:  31% (189/609)   Receiving objects:  32% (195/609)   Receiving objects:  33% (201/609)   Receiving objects:  34% (208/609)   Receiving objects:  35% (214/609)   Receiving objects:  36% (220/609)   Receiving objects:  37% (226/609)   Receiving objects:  38% (232/609)   Receiving objects:  39% (238/609)   Receiving objects:  40% (244/609)   Receiving objects:  41% (250/609)   Receiving objects:  42% (256/609)   Receiving objects:  43% (262/609)   Receiving objects:  44% (268/609)   Receiving objects:  45% (275/609)   Receiving objects:  46% (281/609)   Receiving objects:  47% (287/609)   Receiving objects:  48% (293/609)   Receiving objects:  49% (299/609)   Receiving objects:  50% (305/609)   Receiving objects:  51% (311/609)   Receiving objects:  52% (317/609)   Receiving objects:  53% (323/609)   Receiving objects:  54% (329/609)   Receiving objects:  55% (335/609)   Receiving objects:  56% (342/609)   Receiving objects:  57% (348/609)   Receiving objects:  58% (354/609)   Receiving objects:  59% (360/609)   Receiving objects:  60% (366/609)   Receiving objects:  61% (372/609)   Receiving objects:  62% (378/609)   Receiving objects:  63% (384/609)   Receiving objects:  64% (390/609)   Receiving objects:  65% (396/609)   Receiving objects:  66% (402/609)   Receiving objects:  67% (409/609)   Receiving objects:  68% (415/609)   Receiving objects:  69% (421/609)   Receiving objects:  70% (427/609)   Receiving objects:  71% (433/609)   Receiving objects:  72% (439/609)   Receiving objects:  73% (445/609)   Receiving objects:  74% (451/609)   Receiving objects:  75% (457/609)   Receiving objects:  76% (463/609)   Receiving objects:  77% (469/609)   Receiving objects:  78% (476/609)   Receiving objects:  79% (482/609)   Receiving objects:  80% (488/609)   Receiving objects:  81% (494/609)   Receiving objects:  82% (500/609)   Receiving objects:  83% (506/609)   Receiving objects:  84% (512/609)   Receiving objects:  85% (518/609)   Receiving objects:  86% (524/609)   Receiving objects:  87% (530/609)   Receiving objects:  88% (536/609)   Receiving objects:  89% (543/609)   Receiving objects:  90% (549/609)   Receiving objects:  91% (555/609)   Receiving objects:  92% (561/609)   remote: Total 609 (delta 144), reused 589 (delta 130), pack-reused 0[K
+Receiving objects:  93% (567/609)   Receiving objects:  94% (573/609)   Receiving objects:  95% (579/609)   Receiving objects:  96% (585/609)   Receiving objects:  97% (591/609)   Receiving objects:  98% (597/609)   Receiving objects:  99% (603/609)   Receiving objects: 100% (609/609)   Receiving objects: 100% (609/609), 5.21 MiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/144)   Resolving deltas:   1% (2/144)   Resolving deltas:   2% (3/144)   Resolving deltas:   3% (5/144)   Resolving deltas:   4% (6/144)   Resolving deltas:   6% (9/144)   Resolving deltas:   7% (11/144)   Resolving deltas:   8% (12/144)   Resolving deltas:   9% (13/144)   Resolving deltas:  13% (19/144)   Resolving deltas:  14% (21/144)   Resolving deltas:  24% (35/144)   Resolving deltas:  25% (37/144)   Resolving deltas:  27% (39/144)   Resolving deltas:  31% (45/144)   Resolving deltas:  33% (48/144)   Resolving deltas:  34% (49/144)   Resolving deltas:  36% (53/144)   Resolving deltas:  38% (55/144)   Resolving deltas:  39% (57/144)   Resolving deltas:  42% (61/144)   Resolving deltas:  45% (65/144)   Resolving deltas:  46% (67/144)   Resolving deltas:  47% (69/144)   Resolving deltas:  50% (72/144)   Resolving deltas:  51% (74/144)   Resolving deltas:  52% (75/144)   Resolving deltas:  53% (77/144)   Resolving deltas:  54% (78/144)   Resolving deltas:  59% (86/144)   Resolving deltas:  61% (88/144)   Resolving deltas:  62% (90/144)   Resolving deltas:  63% (91/144)   Resolving deltas:  64% (93/144)   Resolving deltas:  66% (96/144)   Resolving deltas:  68% (98/144)   Resolving deltas:  69% (100/144)   Resolving deltas:  70% (101/144)   Resolving deltas:  71% (103/144)   Resolving deltas:  72% (104/144)   Resolving deltas:  75% (109/144)   Resolving deltas:  77% (112/144)   Resolving deltas:  79% (114/144)   Resolving deltas:  80% (116/144)   Resolving deltas:  81% (118/144)   Resolving deltas:  84% (121/144)   Resolving deltas:  85% (123/144)   Resolving deltas:  86% (124/144)   Resolving deltas:  88% (128/144)   Resolving deltas:  89% (129/144)   Resolving deltas:  90% (130/144)   Resolving deltas:  91% (132/144)   Resolving deltas:  92% (133/144)   Resolving deltas:  94% (136/144)   Resolving deltas:  95% (138/144)   Resolving deltas:  96% (139/144)   Resolving deltas:  97% (140/144)   Resolving deltas:  98% (142/144)   Resolving deltas:  99% (143/144)   Resolving deltas: 100% (144/144)   Resolving deltas: 100% (144/144), done.
+Checking connectivity... done.
+]0;~/Reposmacbook-bro:Repos jwatts$ ls
+jamesonwatts.github.io	temp			website
+]0;~/Reposmacbook-bro:Repos jwatts$ cd jamesonwatts.github.io/
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls
+config.toml			jamesonwatts.github.io.Rproj	static
+content				public				themes
+index.Rmd			resources
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm -rf .
+rm: "." and ".." may not be removed
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls
+config.toml			jamesonwatts.github.io.Rproj	static
+content				public				themes
+index.Rmd			resources
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm con*
+rm: content: is a directory
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls
+content				public				themes
+index.Rmd			resources
+jamesonwatts.github.io.Rproj	static
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ lsrm con*ls[Krm -rf .[Kcon*
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls
+index.Rmd			public				static
+jamesonwatts.github.io.Rproj	resources			themes
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm index.Rmd 
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls
+jamesonwatts.github.io.Rproj	resources			themes
+public				static
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm -rf jamesonwatts.github.io.Rproj 
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm -rf resources/
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm -rf themes/
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm -rf public/
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls
+static
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm -rf static/
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ ls
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ git push orgi[K[K[K[K[K[K[K[K[Kci[Kommit -m "yada'[K"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mdeleted:    config.toml[m
+	[31mdeleted:    content/home/about.md[m
+	[31mdeleted:    content/home/contact.md[m
+	[31mdeleted:    content/home/experience.md[m
+	[31mdeleted:    content/home/hero.md[m
+	[31mdeleted:    content/home/hero_carousel.md[m
+	[31mdeleted:    content/home/posts.md[m
+	[31mdeleted:    content/home/projects.md[m
+	[31mdeleted:    content/home/publications.md[m
+	[31mdeleted:    content/home/publications_selected.md[m
+	[31mdeleted:    content/home/search.md[m
+	[31mdeleted:    content/home/skills.md[m
+	[31mdeleted:    content/home/tags.md[m
+	[31mdeleted:    content/home/talks.md[m
+	[31mdeleted:    content/home/talks_selected.md[m
+	[31mdeleted:    content/home/teaching.md[m
+	[31mdeleted:    content/post/2015-07-23-r-rmarkdown.Rmd[m
+	[31mdeleted:    content/post/2015-07-23-r-rmarkdown.html[m
+	[31mdeleted:    content/post/_index.md[m
+	[31mdeleted:    content/post/getting-started/featured.jpg[m
+	[31mdeleted:    content/post/getting-started/gallery/theme-1950s.png[m
+	[31mdeleted:    content/post/getting-started/gallery/theme-apogee.png[m
+	[31mdeleted:    content/post/getting-started/gallery/theme-coffee-playfair.png[m
+	[31mdeleted:    content/post/getting-started/gallery/theme-cupcake.png[m
+	[31mdeleted:    content/post/getting-started/gallery/theme-dark.png[m
+	[31mdeleted:    content/post/getting-started/gallery/theme-default.png[m
+	[31mdeleted:    content/post/getting-started/gallery/theme-forest.png[m
+	[31mdeleted:    content/post/getting-started/gallery/theme-ocean.png[m
+	[31mdeleted:    content/post/getting-started/index.md[m
+	[31mdeleted:    content/privacy.md[m
+	[31mdeleted:    content/project/external-project/featured.jpg[m
+	[31mdeleted:    content/project/external-project/index.md[m
+	[31mdeleted:    content/project/internal-project/featured.jpg[m
+	[31mdeleted:    content/project/internal-project/index.md[m
+	[31mdeleted:    content/publication/_index.md[m
+	[31mdeleted:    content/publication/clothing-search/cite.bib[m
+	[31mdeleted:    content/publication/clothing-search/featured.jpg[m
+	[31mdeleted:    content/publication/clothing-search/index.md[m
+	[31mdeleted:    content/publication/person-re-id/featured.jpg[m
+	[31mdeleted:    content/publication/person-re-id/index.md[m
+	[31mdeleted:    content/slides/example-slides.md[m
+	[31mdeleted:    content/talk/_index.md[m
+	[31mdeleted:    content/talk/example/featured.jpg[m
+	[31mdeleted:    content/talk/example/index.md[m
+	[31mdeleted:    content/tutorial/_index.md[m
+	[31mdeleted:    content/tutorial/example.md[m
+	[31mdeleted:    index.Rmd[m
+	[31mdeleted:    jamesonwatts.github.io.Rproj[m
+	[31mdeleted:    public/404.html[m
+	[31mdeleted:    public/categories/index.html[m
+	[31mdeleted:    public/categories/index.xml[m
+	[31mdeleted:    public/categories/page/1/index.html[m
+	[31mdeleted:    public/categories/r/index.html[m
+	[31mdeleted:    public/categories/r/index.xml[m
+	[31mdeleted:    public/categories/r/page/1/index.html[m
+	[31mdeleted:    public/css/reveal_custom.min.css[m
+	[31mdeleted:    public/files/CV.pdf[m
+	[31mdeleted:    public/home/index.xml[m
+	[31mdeleted:    public/img/boards.jpg[m
+	[31mdeleted:    public/img/headers/bubbles-wide.jpg[m
+	[31mdeleted:    public/img/headshot.jpg[m
+	[31mdeleted:    public/img/icon-192.png[m
+	[31mdeleted:    public/img/icon.png[m
+	[31mdeleted:    public/img/portrait.jpg[m
+	[31mdeleted:    public/index.html[m
+	[31mdeleted:    public/index.json[m
+	[31mdeleted:    public/index.xml[m
+	[31mdeleted:    public/js/academic-bundle-pre.min.js[m
+	[31mdeleted:    public/js/academic.min.2861db6bcf2db4b5eade32c795453e47.js[m
+	[31mdeleted:    public/js/mathjax-config.js[m
+	[31mdeleted:    public/js/vendor/reveal.js/plugin/notes/notes.html[m
+	[31mdeleted:    public/js/vendor/reveal.js/plugin/notes/notes.js[m
+	[31mdeleted:    public/post/2015-07-23-r-rmarkdown/index.html[m
+	[31mdeleted:    public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png[m
+	[31mdeleted:    public/post/getting-started/featured.jpg[m
+	[31mdeleted:    public/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q75_box.jpg[m
+	[31mdeleted:    public/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/post/getting-started/gallery/theme-1950s.png[m
+	[31mdeleted:    public/post/getting-started/gallery/theme-apogee.png[m
+	[31mdeleted:    public/post/getting-started/gallery/theme-coffee-playfair.png[m
+	[31mdeleted:    public/post/getting-started/gallery/theme-cupcake.png[m
+	[31mdeleted:    public/post/getting-started/gallery/theme-dark.png[m
+	[31mdeleted:    public/post/getting-started/gallery/theme-default.png[m
+	[31mdeleted:    public/post/getting-started/gallery/theme-forest.png[m
+	[31mdeleted:    public/post/getting-started/gallery/theme-ocean.png[m
+	[31mdeleted:    public/post/getting-started/index.html[m
+	[31mdeleted:    public/post/index.html[m
+	[31mdeleted:    public/post/index.xml[m
+	[31mdeleted:    public/post/page/1/index.html[m
+	[31mdeleted:    public/privacy/index.html[m
+	[31mdeleted:    public/project/external-project/featured.jpg[m
+	[31mdeleted:    public/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_550x0_resize_q90_box.jpg[m
+	[31mdeleted:    public/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/project/external-project/index.html[m
+	[31mdeleted:    public/project/index.html[m
+	[31mdeleted:    public/project/index.xml[m
+	[31mdeleted:    public/project/internal-project/featured.jpg[m
+	[31mdeleted:    public/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q90_box.jpg[m
+	[31mdeleted:    public/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/project/internal-project/index.html[m
+	[31mdeleted:    public/project/page/1/index.html[m
+	[31mdeleted:    public/publication/clothing-search/cite.bib[m
+	[31mdeleted:    public/publication/clothing-search/featured.jpg[m
+	[31mdeleted:    public/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q75_box.jpg[m
+	[31mdeleted:    public/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_918x517_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/publication/clothing-search/index.html[m
+	[31mdeleted:    public/publication/index.html[m
+	[31mdeleted:    public/publication/index.xml[m
+	[31mdeleted:    public/publication/person-re-id/featured.jpg[m
+	[31mdeleted:    public/publication/person-re-id/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q75_box.jpg[m
+	[31mdeleted:    public/publication/person-re-id/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/publication/person-re-id/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    public/publication/person-re-id/index.html[m
+	[31mdeleted:    public/publication_types/1/index.html[m
+	[31mdeleted:    public/publication_types/1/index.xml[m
+	[31mdeleted:    public/publication_types/1/page/1/index.html[m
+	[31mdeleted:    public/publication_types/2/index.html[m
+	[31mdeleted:    public/publication_types/2/index.xml[m
+	[31mdeleted:    public/publication_types/2/page/1/index.html[m
+	[31mdeleted:    public/publication_types/index.html[m
+	[31mdeleted:    public/publication_types/index.xml[m
+	[31mdeleted:    public/publication_types/page/1/index.html[m
+	[31mdeleted:    public/site.webmanifest[m
+	[31mdeleted:    public/sitemap.xml[m
+	[31mdeleted:    public/slides/example-slides/index.html[m
+	[31mdeleted:    public/slides/index.xml[m
+	[31mdeleted:    public/styles.css[m
+	[31mdeleted:    public/tags/academic/index.html[m
+	[31mdeleted:    public/tags/academic/index.xml[m
+	[31mdeleted:    public/tags/academic/page/1/index.html[m
+	[31mdeleted:    public/tags/deep-learning/index.html[m
+	[31mdeleted:    public/tags/deep-learning/index.xml[m
+	[31mdeleted:    public/tags/deep-learning/page/1/index.html[m
+	[31mdeleted:    public/tags/demo/index.html[m
+	[31mdeleted:    public/tags/demo/index.xml[m
+	[31mdeleted:    public/tags/demo/page/1/index.html[m
+	[31mdeleted:    public/tags/index.html[m
+	[31mdeleted:    public/tags/index.xml[m
+	[31mdeleted:    public/tags/page/1/index.html[m
+	[31mdeleted:    public/tags/plot/index.html[m
+	[31mdeleted:    public/tags/plot/index.xml[m
+	[31mdeleted:    public/tags/plot/page/1/index.html[m
+	[31mdeleted:    public/tags/r-markdown/index.html[m
+	[31mdeleted:    public/tags/r-markdown/index.xml[m
+	[31mdeleted:    public/tags/r-markdown/page/1/index.html[m
+	[31mdeleted:    public/tags/regression/index.html[m
+	[31mdeleted:    public/tags/regression/index.xml[m
+	[31mdeleted:    public/tags/regression/page/1/index.html[m
+	[31mdeleted:    public/talk/example/featured.jpg[m
+	[31mdeleted:    public/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q75_box.jpg[m
+	[31mdeleted:    public/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_1600x400_fill_q90_box_right.jpg[m
+	[31mdeleted:    public/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_680x500_fill_q90_box_right.jpg[m
+	[31mdeleted:    public/talk/example/index.html[m
+	[31mdeleted:    public/talk/index.html[m
+	[31mdeleted:    public/talk/index.xml[m
+	[31mdeleted:    public/tutorial/example/index.html[m
+	[31mdeleted:    public/tutorial/index.html[m
+	[31mdeleted:    public/tutorial/index.xml[m
+	[31mdeleted:    resources/_gen/assets/css/css/reveal_custom.css_d3f53f09220d597dac26fe7840c31fc9.content[m
+	[31mdeleted:    resources/_gen/assets/css/css/reveal_custom.css_d3f53f09220d597dac26fe7840c31fc9.json[m
+	[31mdeleted:    resources/_gen/assets/js/js/academic-bundle-pre.js_d3f53f09220d597dac26fe7840c31fc9.content[m
+	[31mdeleted:    resources/_gen/assets/js/js/academic-bundle-pre.js_d3f53f09220d597dac26fe7840c31fc9.json[m
+	[31mdeleted:    resources/_gen/assets/js/js/academic.min.js_187be290e8222f6bb644052568a2fb6d.content[m
+	[31mdeleted:    resources/_gen/assets/js/js/academic.min.js_187be290e8222f6bb644052568a2fb6d.json[m
+	[31mdeleted:    resources/_gen/images/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q75_box.jpg[m
+	[31mdeleted:    resources/_gen/images/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_550x0_resize_q90_box.jpg[m
+	[31mdeleted:    resources/_gen/images/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q90_box.jpg[m
+	[31mdeleted:    resources/_gen/images/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q75_box.jpg[m
+	[31mdeleted:    resources/_gen/images/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/publication/clothing-search/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_918x517_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/publication/person-re-id/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q75_box.jpg[m
+	[31mdeleted:    resources/_gen/images/publication/person-re-id/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_1600x400_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/publication/person-re-id/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_680x500_fill_q90_box_smart1.jpg[m
+	[31mdeleted:    resources/_gen/images/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q75_box.jpg[m
+	[31mdeleted:    resources/_gen/images/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_1600x400_fill_q90_box_right.jpg[m
+	[31mdeleted:    resources/_gen/images/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_680x500_fill_q90_box_right.jpg[m
+	[31mdeleted:    static/files/CV.pdf[m
+	[31mdeleted:    static/img/boards.jpg[m
+	[31mdeleted:    static/img/headers/bubbles-wide.jpg[m
+	[31mdeleted:    static/img/headshot.jpg[m
+	[31mdeleted:    static/img/portrait.jpg[m
+	[31mdeleted:    static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png[m
+	[31mdeleted:    themes/hugo-academic/.editorconfig[m
+	[31mdeleted:    themes/hugo-academic/.github/PULL_REQUEST_TEMPLATE.md[m
+	[31mdeleted:    themes/hugo-academic/.gitignore[m
+	[31mdeleted:    themes/hugo-academic/LICENSE.md[m
+	[31mdeleted:    themes/hugo-academic/README.md[m
+	[31mdeleted:    themes/hugo-academic/academic.png[m
+	[31mdeleted:    themes/hugo-academic/archetypes/default.md[m
+	[31mdeleted:    themes/hugo-academic/archetypes/docs.md[m
+	[31mdeleted:    themes/hugo-academic/archetypes/home.md[m
+	[31mdeleted:    themes/hugo-academic/archetypes/post/index.md[m
+	[31mdeleted:    themes/hugo-academic/archetypes/project/index.md[m
+	[31mdeleted:    themes/hugo-academic/archetypes/publication/index.md[m
+	[31mdeleted:    themes/hugo-academic/archetypes/slides.md[m
+	[31mdeleted:    themes/hugo-academic/archetypes/talk/index.md[m
+	[31mdeleted:    themes/hugo-academic/assets/css/reveal.css[m
+	[31mdeleted:    themes/hugo-academic/assets/css/reveal_custom.css[m
+	[31mdeleted:    themes/hugo-academic/assets/js/academic-search.js[m
+	[31mdeleted:    themes/hugo-academic/assets/js/academic.js[m
+	[31mdeleted:    themes/hugo-academic/assets/js/algolia-search.js[m
+	[31mdeleted:    themes/hugo-academic/assets/js/mathjax-config.js[m
+	[31mdeleted:    themes/hugo-academic/data/academic.toml[m
+	[31mdeleted:    themes/hugo-academic/data/assets.toml[m
+	[31mdeleted:    themes/hugo-academic/data/fonts/classic.toml[m
+	[31mdeleted:    themes/hugo-academic/data/fonts/default.toml[m
+	[31mdeleted:    themes/hugo-academic/data/fonts/playfair.toml[m
+	[31mdeleted:    themes/hugo-academic/data/i18n/languages.yaml[m
+	[31mdeleted:    themes/hugo-academic/data/themes/1950s.toml[m
+	[31mdeleted:    themes/hugo-academic/data/themes/apogee.toml[m
+	[31mdeleted:    themes/hugo-academic/data/themes/coffee.toml[m
+	[31mdeleted:    themes/hugo-academic/data/themes/cupcake.toml[m
+	[31mdeleted:    themes/hugo-academic/data/themes/dark.toml[m
+	[31mdeleted:    themes/hugo-academic/data/themes/default.toml[m
+	[31mdeleted:    themes/hugo-academic/data/themes/forest.toml[m
+	[31mdeleted:    themes/hugo-academic/data/themes/ocean.toml[m
+	[31mdeleted:    themes/hugo-academic/demo.sh[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/config.toml[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/about.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/contact.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/experience.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/hero.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/hero_carousel.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/posts.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/projects.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/publications.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/publications_selected.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/search.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/skills.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/tags.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/talks.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/talks_selected.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/home/teaching.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/_index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/featured.jpg[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-1950s.png[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-apogee.png[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-coffee-playfair.png[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-cupcake.png[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-dark.png[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-default.png[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-forest.png[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/gallery/theme-ocean.png[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/post/getting-started/index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/privacy.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/project/external-project/featured.jpg[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/project/external-project/index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/project/internal-project/featured.jpg[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/project/internal-project/index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/publication/_index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/publication/clothing-search/cite.bib[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/publication/clothing-search/featured.jpg[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/publication/clothing-search/index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/publication/person-re-id/featured.jpg[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/publication/person-re-id/index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/slides/example-slides.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/talk/_index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/talk/example/featured.jpg[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/talk/example/index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/tutorial/_index.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/content/tutorial/example.md[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/static/img/boards.jpg[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/static/img/headers/bubbles-wide.jpg[m
+	[31mdeleted:    themes/hugo-academic/exampleSite/static/img/portrait.jpg[m
+	[31mdeleted:    themes/hugo-academic/i18n/ca.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/de.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/el.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/en.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/es.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/eu.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/fr.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/id.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/it.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/ja.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/ko.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/nl.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/pl.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/pt.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/ru.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/tr.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/vi.yaml[m
+	[31mdeleted:    themes/hugo-academic/i18n/zh.yaml[m
+	[31mdeleted:    themes/hugo-academic/images/screenshot.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-1950s.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-apogee.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-coffee-playfair.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-cupcake.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-dark.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-default.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-forest.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-ocean.png[m
+	[31mdeleted:    themes/hugo-academic/images/theme-spacer.png[m
+	[31mdeleted:    themes/hugo-academic/images/tn.png[m
+	[31mdeleted:    themes/hugo-academic/layouts/404.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/_default/list.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/_default/single.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/docs/list.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/docs/single.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/home/list.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/home/single.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/index.css[m
+	[31mdeleted:    themes/hugo-academic/layouts/index.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/index.json[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/comments.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/cookie_consent.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/css/academic.css[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/css/parse_theme.css[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/docs_layout.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/docs_sidebar.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/docs_toc_foot.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/footer.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/footer_container.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/footer_section.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/head_custom.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/header.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/navbar.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/page_author.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/page_header.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/page_links.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/page_links_div.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/page_metadata.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/pagination.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/post_li_detailed.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/post_li_simple.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/post_li_stream.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/project_li_card.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/project_li_showcase.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/project_li_simple.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/publication_li_apa.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/publication_li_detailed.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/publication_li_mla.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/publication_li_simple.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/publication_li_stream.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/section_pager.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/share.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/slides.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/tags.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/talk_li_detailed.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/talk_li_simple.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/talk_li_stream.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widget_page.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/about.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/contact.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/custom.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/experience.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/featurette.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/hero.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/hero_carousel.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/posts.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/projects.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/publications.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/publications_selected.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/search.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/tag_cloud.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/talks.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/partials/widgets/talks_selected.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/project/single.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/publication/single.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/rss.xml[m
+	[31mdeleted:    themes/hugo-academic/layouts/section/home.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/section/post.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/section/publication.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/section/talk.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/alert.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/figure.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/fragment.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/gallery.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/gdocs.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/hl.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/list_categories.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/list_tags.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/slide.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/speaker_note.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/staticref.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/toc.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/shortcodes/video.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/sitemap.xml[m
+	[31mdeleted:    themes/hugo-academic/layouts/slides/baseof.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/slides/list.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/slides/single.html[m
+	[31mdeleted:    themes/hugo-academic/layouts/talk/single.html[m
+	[31mdeleted:    themes/hugo-academic/static/img/icon-192.png[m
+	[31mdeleted:    themes/hugo-academic/static/img/icon.png[m
+	[31mdeleted:    themes/hugo-academic/static/img/portrait.jpg[m
+	[31mdeleted:    themes/hugo-academic/static/js/vendor/reveal.js/plugin/notes/notes.html[m
+	[31mdeleted:    themes/hugo-academic/static/js/vendor/reveal.js/plugin/notes/notes.js[m
+	[31mdeleted:    themes/hugo-academic/static/site.webmanifest[m
+	[31mdeleted:    themes/hugo-academic/theme.toml[m
+
+no changes added to commit
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ git push origin master
+Everything up-to-date
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ git push origin master[K[K[K[K[K[K
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Everything up-to-date
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm .gitignore 
+]0;~/Repos/jamesonwatts.github.iomacbook-bro:jamesonwatts.github.io jwatts$ rm .gitignore [2@git push origin[Cmaster[2Pcommit -m "yada"ls[Kgit commit -m "yada"push origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd web[K[K[K
+]0;~macbook-bro:~ jwatts$ cd re[K[KRepos/
+]0;~/Reposmacbook-bro:Repos jwatts$ ls
+jamesonwatts.github.io	temp			website
+]0;~/Reposmacbook-bro:Repos jwatts$ cd website/
+]0;~/Repos/websitemacbook-bro:website jwatts$ ls
+config.toml	index.Rmd	resources	themes
+content		public		static		website.Rproj
+]0;~/Repos/websitemacbook-bro:website jwatts$ cd public/
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ ls
+404.html		index.html		project			styles.css
+categories		index.json		publication		tags
+css			index.xml		publication_types	talk
+files			js			site.webmanifest	tutorial
+home			post			sitemap.xml
+img			privacy			slides
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ ls[K[Kgit init
+Initialized empty Git repository in /Users/jwatts/Repos/website/public/.git/
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ git remote add origin https://github.com/username/username.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.io[1P.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.iow.github.ioa.github.iot.github.iot.github.ios.github.io/.github.ioj.github.ioa.github.iom.github.ioe.github.ios.github.ioo.github.ion.github.iow.github.ioa.github.iot.github.iot.github.ios.github.io
+]0;~/Repos/website/publicmacbook-bro:public jwatts$ GIT PU[K[K[K[K[K[Kgit pull origin master
+From https://github.com/jamesonwatts/jamesonwatts.github.io
+ * branch            master     -> FETCH_HEAD
+[?2004hMerge made by the 'recursive' strategy.
+[Kmacbook-bro:Website jwatts$ [Kmacbook-bro:Website jwatts$ hugo new  --kind post post/my-article-name[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kthe-need-for-a [K-fair-traide[K[K[Kde [K[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[1Pa-fair-trade[C[C[C[C[C[C[C[C[C[C[C[C-standard for [K[K[K[K[K-for-data
+bash: hugo: command not found
+conda --help
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    config       Modify configuration values in .condarc. This is modeled
+                 after the git config command. Writes to the user .condarc
+                 file (/Users/jwatts/.condarc) by default.
+    create       Create a new conda environment from a list of specified
+                 packages.
+    help         Displays a list of available conda commands and their help
+                 strings.
+    info         Display information about current conda install.
+    install      Installs a list of packages into a specified conda
+                 environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove. See conda remove --help.
+    search       Search for packages and display associated information. The
+                 input is a MatchSpec, a query language for conda packages.
+                 See examples below.
+    update       Updates conda packages to the latest compatible version. This
+                 command accepts a list of package names and updates them to
+                 the latest versions that are compatible with all other
+                 packages in the environment. Conda attempts to install the
+                 newest versions of the requested packages. To accomplish
+                 this, it may update some packages that are already installed,
+                 or install additional packages. To prevent existing packages
+                 from updating, use the --no-update-deps option. This may
+                 force conda to install older versions of the requested
+                 packages, and it does not prevent additional dependency
+                 packages from being installed. If you wish to skip dependency
+                 checking altogether, use the '--force' option. This may
+                 result in an environment with incompatible packages, so this
+                 option must be used with great caution.
+    upgrade      Alias for conda update. See conda update --help.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  env
+  server
+]0;~/Dropbox/Websitemacbook-bro:Website jwatts$ conda info
+
+     active environment : None
+       user config file : /Users/jwatts/.condarc
+ populated config files : /Users/jwatts/.condarc
+          conda version : 4.4.3
+    conda-build version : not installed
+         python version : 3.6.2.final.0
+       base environment : /Applications/anaconda  (writable)
+           channel URLs : https://repo.continuum.io/pkgs/main/osx-64
+                          https://repo.continuum.io/pkgs/main/noarch
+                          https://repo.continuum.io/pkgs/free/osx-64
+                          https://repo.continuum.io/pkgs/free/noarch
+                          https://repo.continuum.io/pkgs/r/osx-64
+                          https://repo.continuum.io/pkgs/r/noarch
+                          https://repo.continuum.io/pkgs/pro/osx-64
+                          https://repo.continuum.io/pkgs/pro/noarch
+          package cache : /Applications/anaconda/pkgs
+                          /Users/jwatts/.conda/pkgs
+       envs directories : /Applications/anaconda/envs
+                          /Users/jwatts/.conda/envs
+               platform : osx-64
+             user-agent : conda/4.4.3 requests/2.18.4 CPython/3.6.2 Darwin/18.2.0 OSX/10.14.1
+                UID:GID : 1444370630:900619476
+             netrc file : None
+           offline mode : False
+
+]0;~/Dropbox/Websitemacbook-bro:Website jwatts$ conda create --name rstudio
+Solving environment: - done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.4.3
+  latest version: 4.5.12
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: /Applications/anaconda/envs/rstudio
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: | done
+Verifying transaction: - \ | / - \ done
+Executing transaction: / done
+#
+# To activate this environment, use:
+# > source activate rstudio
+#
+# To deactivate an active environment, use:
+# > source deactivate
+#
+
+]0;~/Dropbox/Websitemacbook-bro:Website jwatts$ source activi[Kate rstudio
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ source deactivate
+]0;~/Dropbox/Websitemacbook-bro:Website jwatts$ conda install -n myenv pip[1P pip[1P pip[1P pip[1P pip[1P pipr pips pipt pipu pipd pipi pipo pip
+Solving environment: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.4.3
+  latest version: 4.5.12
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: /Applications/anaconda/envs/rstudio
+
+  added / updated specs: 
+    - pip
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    openssl-1.1.1a             |       h1de35cc_0         4.6 MB
+    sqlite-3.26.0              |       ha441bb4_0         2.3 MB
+    setuptools-40.6.3          |           py37_0         617 KB
+    readline-7.0               |       h1de35cc_5         393 KB
+    python-3.7.1               |       haf84260_7        21.1 MB
+    libcxxabi-4.0.1            |       hcfea43d_1         458 KB
+    certifi-2018.11.29         |           py37_0         145 KB
+    libedit-3.1.20170329       |       hb402a30_2         154 KB
+    zlib-1.2.11                |       h1de35cc_3         105 KB
+    pip-18.1                   |           py37_0         1.7 MB
+    xz-5.2.4                   |       h1de35cc_4         269 KB
+    libcxx-4.0.1               |       hcfea43d_1         1.2 MB
+    tk-8.6.8                   |       ha441bb4_0         3.2 MB
+    ncurses-6.1                |       h0a44026_1         887 KB
+    wheel-0.32.3               |           py37_0          34 KB
+    ------------------------------------------------------------
+                                           Total:        37.1 MB
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2018.03.07-0           
+    certifi:         2018.11.29-py37_0      
+    libcxx:          4.0.1-hcfea43d_1       
+    libcxxabi:       4.0.1-hcfea43d_1       
+    libedit:         3.1.20170329-hb402a30_2
+    libffi:          3.2.1-h475c297_4       
+    ncurses:         6.1-h0a44026_1         
+    openssl:         1.1.1a-h1de35cc_0      
+    pip:             18.1-py37_0            
+    python:          3.7.1-haf84260_7       
+    readline:        7.0-h1de35cc_5         
+    setuptools:      40.6.3-py37_0          
+    sqlite:          3.26.0-ha441bb4_0      
+    tk:              8.6.8-ha441bb4_0       
+    wheel:           0.32.3-py37_0          
+    xz:              5.2.4-h1de35cc_4       
+    zlib:            1.2.11-h1de35cc_3      
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+openssl 1.1.1a:                                                                                                 |   0% openssl 1.1.1a: 2                                                                                               |   0% openssl 1.1.1a: 9                                                                                               |   1% openssl 1.1.1a: ##8                                                                                             |   3% openssl 1.1.1a: #######2                                                                                        |   8% openssl 1.1.1a: ##################3                                                                             |  19% openssl 1.1.1a: #################################################5                                              |  52% openssl 1.1.1a: #######################################################################2                        |  75% openssl 1.1.1a: ##############################################################################9                 |  83% openssl 1.1.1a: ####################################################################################5           |  89% openssl 1.1.1a: ########################################################################################6       |  93% openssl 1.1.1a: ###########################################################################################9    |  97% openssl 1.1.1a: ##############################################################################################7 | 100% openssl 1.1.1a: ############################################################################################### | 100% 
+sqlite 3.26.0:                                                                                                  |   0% sqlite 3.26.0: ##################7                                                                              |  20% sqlite 3.26.0: ########################################################################                         |  75% sqlite 3.26.0: ##################################################################################2              |  86% sqlite 3.26.0: ##########################################################################################2      |  94% sqlite 3.26.0: ################################################################################################ | 100% 
+setuptools 40.6.3:                                                                                              |   0% setuptools 40.6.3: #7                                                                                           |   2% setuptools 40.6.3: #######1                                                                                     |   8% setuptools 40.6.3: #####################################################################                        |  75% setuptools 40.6.3: ###############################################################################8             |  87% setuptools 40.6.3: #########################################################################################6   |  97% setuptools 40.6.3: ############################################################################################ | 100% 
+readline 7.0:                                                                                                   |   0% readline 7.0: ##9                                                                                               |   3% readline 7.0: ########################################################################7                         |  75% readline 7.0: ################################################################################################# | 100% 
+python 3.7.1:                                                                                                   |   0% python 3.7.1:                                                                                                   |   0% python 3.7.1: 2                                                                                                 |   0% python 3.7.1: 6                                                                                                 |   1% python 3.7.1: #7                                                                                                |   2% python 3.7.1: ###                                                                                               |   3% python 3.7.1: ####1                                                                                             |   4% python 3.7.1: #####1                                                                                            |   5% python 3.7.1: ######2                                                                                           |   6% python 3.7.1: #######4                                                                                          |   8% python 3.7.1: ########7                                                                                         |   9% python 3.7.1: ##########                                                                                        |  10% python 3.7.1: ##############3                                                                                   |  15% python 3.7.1: #####################4                                                                            |  22% python 3.7.1: ############################7                                                                     |  30% python 3.7.1: ###################################8                                                              |  37% python 3.7.1: ###########################################6                                                      |  45% python 3.7.1: ###################################################                                               |  53% python 3.7.1: ##########################################################4                                       |  60% python 3.7.1: #################################################################6                                |  68% python 3.7.1: ########################################################################7                         |  75% python 3.7.1: #############################################################################6                    |  80% python 3.7.1: #################################################################################7                |  84% python 3.7.1: #####################################################################################             |  88% python 3.7.1: ########################################################################################4         |  91% python 3.7.1: ###########################################################################################1      |  94% python 3.7.1: #############################################################################################6    |  97% python 3.7.1: ###############################################################################################7  |  99% python 3.7.1: ################################################################################################# | 100% 
+libcxxabi 4.0.1:                                                                                                |   0% libcxxabi 4.0.1: ######################################################################5                        |  75% libcxxabi 4.0.1: ########################################################################################7      |  94% libcxxabi 4.0.1: ############################################################################################## | 100% 
+certifi 2018.11.29:                                                                                             |   0% certifi 2018.11.29: #######5                                                                                    |   8% certifi 2018.11.29: ########################################################################################### | 100% 
+libedit 3.1.20170329:                                                                                           |   0% libedit 3.1.20170329: ######################################################################################### | 100% 
+zlib 1.2.11:                                                                                                    |   0% zlib 1.2.11: ################################################################################################## | 100% 
+pip 18.1:                                                                                                       |   0% pip 18.1: 6                                                                                                     |   1% pip 18.1: ####                                                                                                  |   4% pip 18.1: ##############2                                                                                       |  14% pip 18.1: ###########################################################################7                          |  75% pip 18.1: ##################################################################################8                   |  82% pip 18.1: #########################################################################################7            |  89% pip 18.1: #################################################################################################     |  96% pip 18.1: ##################################################################################################### | 100% 
+xz 5.2.4:                                                                                                       |   0% xz 5.2.4: ###########################################################################9                          |  75% xz 5.2.4: ##################################################################################################### | 100% 
+libcxx 4.0.1:                                                                                                   |   0% libcxx 4.0.1: 9                                                                                                 |   1% libcxx 4.0.1: #######6                                                                                          |   8% libcxx 4.0.1: ########################################################################7                         |  75% libcxx 4.0.1: ################################################################################9                 |  83% libcxx 4.0.1: ##############################################################################################4   |  97% libcxx 4.0.1: ################################################################################################# | 100% 
+tk 8.6.8:                                                                                                       |   0% tk 8.6.8: ####################################3                                                                 |  36% tk 8.6.8: ###########################################################################7                          |  75% tk 8.6.8: #######################################################################################               |  86% tk 8.6.8: #################################################################################################4    |  96% tk 8.6.8: ##################################################################################################### | 100% 
+ncurses 6.1:                                                                                                    |   0% ncurses 6.1: #3                                                                                                 |   1% ncurses 6.1: ##########6                                                                                        |  11% ncurses 6.1: #########################################################################5                         |  75% ncurses 6.1: ################################################################################6                  |  82% ncurses 6.1: ######################################################################################4            |  88% ncurses 6.1: ###########################################################################################3       |  93% ncurses 6.1: ###############################################################################################8   |  98% ncurses 6.1: ################################################################################################## | 100% 
+wheel 0.32.3:                                                                                                   |   0% wheel 0.32.3: #################################8                                                                |  35% wheel 0.32.3: ################################################################################################# | 100% 
+Preparing transaction: - \ | / - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+]0;~/Dropbox/Websitemacbook-bro:Website jwatts$ conda install -n rstudio pip[11Psource deactivateactivate rstudio
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ pipi i[K[K[K[Kp install networkx
+Collecting networkx
+[?25l  Downloading https://files.pythonhosted.org/packages/f3/f4/7e20ef40b118478191cec0b58c3192f822cace858c19505c7670961b76b2/networkx-2.2.zip (1.7MB)
+[K    0% |▏                               | 10kB 697kB/s eta 0:00:03[K    1% |▍                               | 20kB 1.4MB/s eta 0:00:02[K    1% |▋                               | 30kB 1.5MB/s eta 0:00:02[K    2% |▊                               | 40kB 1.2MB/s eta 0:00:02[K    3% |█                               | 51kB 1.4MB/s eta 0:00:02[K    3% |█▏                              | 61kB 1.7MB/s eta 0:00:01[K    4% |█▍                              | 71kB 1.8MB/s eta 0:00:01[K    4% |█▌                              | 81kB 1.7MB/s eta 0:00:01[K    5% |█▊                              | 92kB 1.9MB/s eta 0:00:01[K    6% |██                              | 102kB 1.8MB/s eta 0:00:01[K    6% |██▏                             | 112kB 2.5MB/s eta 0:00:01[K    7% |██▎                             | 122kB 2.4MB/s eta 0:00:01[K    7% |██▌                             | 133kB 2.7MB/s eta 0:00:01[K    8% |██▊                             | 143kB 4.5MB/s eta 0:00:01[K    9% |███                             | 153kB 3.9MB/s eta 0:00:01[K    9% |███                             | 163kB 3.8MB/s eta 0:00:01[K    10% |███▎                            | 174kB 4.4MB/s eta 0:00:01[K    10% |███▌                            | 184kB 2.9MB/s eta 0:00:01[K    11% |███▋                            | 194kB 2.9MB/s eta 0:00:01[K    12% |███▉                            | 204kB 3.5MB/s eta 0:00:01[K    12% |████                            | 215kB 3.5MB/s eta 0:00:01[K    13% |████▎                           | 225kB 3.7MB/s eta 0:00:01[K    13% |████▍                           | 235kB 3.8MB/s eta 0:00:01[K    14% |████▋                           | 245kB 3.8MB/s eta 0:00:01[K    15% |████▉                           | 256kB 4.4MB/s eta 0:00:01[K    15% |█████                           | 266kB 4.6MB/s eta 0:00:01[K    16% |█████▏                          | 276kB 4.7MB/s eta 0:00:01[K    16% |█████▍                          | 286kB 59.9MB/s eta 0:00:01[K    17% |█████▋                          | 296kB 19.1MB/s eta 0:00:01[K    18% |█████▉                          | 307kB 19.1MB/s eta 0:00:01[K    18% |██████                          | 317kB 1.9MB/s eta 0:00:01[K    19% |██████▏                         | 327kB 1.9MB/s eta 0:00:01[K    19% |██████▍                         | 337kB 1.9MB/s eta 0:00:01[K    20% |██████▌                         | 348kB 1.9MB/s eta 0:00:01[K    21% |██████▊                         | 358kB 1.9MB/s eta 0:00:01[K    21% |███████                         | 368kB 1.9MB/s eta 0:00:01[K    22% |███████▏                        | 378kB 1.9MB/s eta 0:00:01[K    22% |███████▎                        | 389kB 1.9MB/s eta 0:00:01[K    23% |███████▌                        | 399kB 2.0MB/s eta 0:00:01[K    24% |███████▊                        | 409kB 2.0MB/s eta 0:00:01[K    24% |████████                        | 419kB 48.3MB/s eta 0:00:01[K    25% |████████                        | 430kB 51.4MB/s eta 0:00:01[K    25% |████████▎                       | 440kB 1.9MB/s eta 0:00:01[K    26% |████████▌                       | 450kB 1.9MB/s eta 0:00:01[K    27% |████████▊                       | 460kB 1.9MB/s eta 0:00:01[K    27% |████████▉                       | 471kB 1.9MB/s eta 0:00:01[K    28% |█████████                       | 481kB 1.9MB/s eta 0:00:01[K    28% |█████████▎                      | 491kB 1.9MB/s eta 0:00:01[K    29% |█████████▍                      | 501kB 1.9MB/s eta 0:00:01[K    30% |█████████▋                      | 512kB 1.9MB/s eta 0:00:01[K    30% |█████████▉                      | 522kB 1.9MB/s eta 0:00:01[K    31% |██████████                      | 532kB 1.9MB/s eta 0:00:01[K    31% |██████████▏                     | 542kB 49.1MB/s eta 0:00:01[K    32% |██████████▍                     | 552kB 53.1MB/s eta 0:00:01[K    33% |██████████▋                     | 563kB 2.0MB/s eta 0:00:01[K    33% |██████████▉                     | 573kB 2.0MB/s eta 0:00:01[K    34% |███████████                     | 583kB 2.0MB/s eta 0:00:01[K    34% |███████████▏                    | 593kB 2.0MB/s eta 0:00:01[K    35% |███████████▍                    | 604kB 2.0MB/s eta 0:00:01[K    36% |███████████▋                    | 614kB 2.0MB/s eta 0:00:01[K    36% |███████████▊                    | 624kB 1.9MB/s eta 0:00:01[K    37% |████████████                    | 634kB 2.0MB/s eta 0:00:01[K    37% |████████████▏                   | 645kB 2.0MB/s eta 0:00:01[K    38% |████████████▍                   | 655kB 2.0MB/s eta 0:00:01[K    39% |████████████▌                   | 665kB 48.4MB/s eta 0:00:01[K    39% |████████████▊                   | 675kB 2.0MB/s eta 0:00:01[K    40% |█████████████                   | 686kB 2.0MB/s eta 0:00:01[K    40% |█████████████                   | 696kB 2.0MB/s eta 0:00:01[K    41% |█████████████▎                  | 706kB 2.0MB/s eta 0:00:01[K    42% |█████████████▌                  | 716kB 2.0MB/s eta 0:00:01[K    42% |█████████████▊                  | 727kB 2.0MB/s eta 0:00:01[K    43% |█████████████▉                  | 737kB 2.0MB/s eta 0:00:01[K    43% |██████████████                  | 747kB 2.0MB/s eta 0:00:01[K    44% |██████████████▎                 | 757kB 2.0MB/s eta 0:00:01[K    45% |██████████████▌                 | 768kB 2.0MB/s eta 0:00:01[K    45% |██████████████▋                 | 778kB 60.6MB/s eta 0:00:01[K    46% |██████████████▉                 | 788kB 2.0MB/s eta 0:00:01[K    46% |███████████████                 | 798kB 2.0MB/s eta 0:00:01[K    47% |███████████████▎                | 808kB 2.0MB/s eta 0:00:01[K    48% |███████████████▍                | 819kB 2.0MB/s eta 0:00:01[K    48% |███████████████▋                | 829kB 2.0MB/s eta 0:00:01[K    49% |███████████████▉                | 839kB 2.0MB/s eta 0:00:01[K    49% |████████████████                | 849kB 2.0MB/s eta 0:00:01[K    50% |████████████████▏               | 860kB 2.0MB/s eta 0:00:01[K    51% |████████████████▍               | 870kB 2.0MB/s eta 0:00:01[K    51% |████████████████▋               | 880kB 2.0MB/s eta 0:00:01[K    52% |████████████████▊               | 890kB 5.1MB/s eta 0:00:01[K    52% |█████████████████               | 901kB 5.1MB/s eta 0:00:01[K    53% |█████████████████▏              | 911kB 5.1MB/s eta 0:00:01[K    54% |█████████████████▍              | 921kB 5.1MB/s eta 0:00:01[K    54% |█████████████████▌              | 931kB 5.1MB/s eta 0:00:01[K    55% |█████████████████▊              | 942kB 5.1MB/s eta 0:00:01[K    56% |██████████████████              | 952kB 5.1MB/s eta 0:00:01[K    56% |██████████████████▏             | 962kB 5.1MB/s eta 0:00:01[K    57% |██████████████████▎             | 972kB 5.1MB/s eta 0:00:01[K    57% |██████████████████▌             | 983kB 5.1MB/s eta 0:00:01[K    58% |██████████████████▊             | 993kB 2.0MB/s eta 0:00:01[K    59% |██████████████████▉             | 1.0MB 1.9MB/s eta 0:00:01[K    59% |███████████████████             | 1.0MB 1.9MB/s eta 0:00:01[K    60% |███████████████████▎            | 1.0MB 1.9MB/s eta 0:00:01[K    60% |███████████████████▌            | 1.0MB 1.9MB/s eta 0:00:01[K    61% |███████████████████▋            | 1.0MB 1.9MB/s eta 0:00:01[K    62% |███████████████████▉            | 1.1MB 1.9MB/s eta 0:00:01[K    62% |████████████████████            | 1.1MB 1.9MB/s eta 0:00:01[K    63% |████████████████████▎           | 1.1MB 1.9MB/s eta 0:00:01[K    63% |████████████████████▍           | 1.1MB 1.9MB/s eta 0:00:01[K    64% |████████████████████▋           | 1.1MB 1.8MB/s eta 0:00:01[K    65% |████████████████████▉           | 1.1MB 1.8MB/s eta 0:00:01[K    65% |█████████████████████           | 1.1MB 1.8MB/s eta 0:00:01[K    66% |█████████████████████▏          | 1.1MB 1.8MB/s eta 0:00:01[K    66% |█████████████████████▍          | 1.1MB 1.8MB/s eta 0:00:01[K    67% |█████████████████████▋          | 1.1MB 1.8MB/s eta 0:00:01[K    68% |█████████████████████▊          | 1.2MB 1.8MB/s eta 0:00:01[K    68% |██████████████████████          | 1.2MB 1.8MB/s eta 0:00:01[K    69% |██████████████████████▏         | 1.2MB 1.8MB/s eta 0:00:01[K    69% |██████████████████████▍         | 1.2MB 948kB/s eta 0:00:01[K    70% |██████████████████████▌         | 1.2MB 1.9MB/s eta 0:00:01[K    71% |██████████████████████▊         | 1.2MB 1.9MB/s eta 0:00:01[K    71% |███████████████████████         | 1.2MB 1.9MB/s eta 0:00:01[K    72% |███████████████████████▏        | 1.2MB 1.9MB/s eta 0:00:01[K    72% |███████████████████████▎        | 1.2MB 1.9MB/s eta 0:00:01[K    73% |███████████████████████▌        | 1.2MB 1.9MB/s eta 0:00:01[K    74% |███████████████████████▊        | 1.3MB 1.9MB/s eta 0:00:01[K    74% |████████████████████████        | 1.3MB 1.9MB/s eta 0:00:01[K    75% |████████████████████████        | 1.3MB 1.9MB/s eta 0:00:01[K    75% |████████████████████████▎       | 1.3MB 1.9MB/s eta 0:00:01[K    76% |████████████████████████▌       | 1.3MB 1.9MB/s eta 0:00:01[K    77% |████████████████████████▊       | 1.3MB 1.9MB/s eta 0:00:01[K    77% |████████████████████████▉       | 1.3MB 1.9MB/s eta 0:00:01[K    78% |█████████████████████████       | 1.3MB 1.9MB/s eta 0:00:01[K    78% |█████████████████████████▎      | 1.3MB 1.9MB/s eta 0:00:01[K    79% |█████████████████████████▍      | 1.4MB 1.9MB/s eta 0:00:01[K    80% |█████████████████████████▋      | 1.4MB 1.9MB/s eta 0:00:01[K    80% |█████████████████████████▉      | 1.4MB 1.9MB/s eta 0:00:01[K    81% |██████████████████████████      | 1.4MB 973kB/s eta 0:00:01[K    81% |██████████████████████████▏     | 1.4MB 1.9MB/s eta 0:00:01[K    82% |██████████████████████████▍     | 1.4MB 1.9MB/s eta 0:00:01[K    83% |██████████████████████████▋     | 1.4MB 1.9MB/s eta 0:00:01[K    83% |██████████████████████████▉     | 1.4MB 1.9MB/s eta 0:00:01[K    84% |███████████████████████████     | 1.4MB 1.9MB/s eta 0:00:01[K    84% |███████████████████████████▏    | 1.4MB 1.9MB/s eta 0:00:01[K    85% |███████████████████████████▍    | 1.5MB 1.9MB/s eta 0:00:01[K    86% |███████████████████████████▋    | 1.5MB 1.9MB/s eta 0:00:01[K    86% |███████████████████████████▊    | 1.5MB 963kB/s eta 0:00:01[K    87% |████████████████████████████    | 1.5MB 1.9MB/s eta 0:00:01[K    87% |████████████████████████████▏   | 1.5MB 1.9MB/s eta 0:00:01[K    88% |████████████████████████████▎   | 1.5MB 1.9MB/s eta 0:00:01[K    89% |████████████████████████████▌   | 1.5MB 1.9MB/s eta 0:00:01[K    89% |████████████████████████████▊   | 1.5MB 1.9MB/s eta 0:00:01[K    90% |█████████████████████████████   | 1.5MB 1.9MB/s eta 0:00:01[K    90% |█████████████████████████████   | 1.5MB 1.9MB/s eta 0:00:01[K    91% |█████████████████████████████▎  | 1.6MB 967kB/s eta 0:00:01[K    92% |█████████████████████████████▌  | 1.6MB 966kB/s eta 0:00:01[K    92% |█████████████████████████████▊  | 1.6MB 1.9MB/s eta 0:00:01[K    93% |█████████████████████████████▉  | 1.6MB 1.9MB/s eta 0:00:01[K    93% |██████████████████████████████  | 1.6MB 1.9MB/s eta 0:00:01[K    94% |██████████████████████████████▎ | 1.6MB 1.9MB/s eta 0:00:01[K    95% |██████████████████████████████▌ | 1.6MB 1.9MB/s eta 0:00:01[K    95% |██████████████████████████████▋ | 1.6MB 1.9MB/s eta 0:00:01[K    96% |██████████████████████████████▉ | 1.6MB 1.9MB/s eta 0:00:01[K    96% |███████████████████████████████ | 1.6MB 989kB/s eta 0:00:01[K    97% |███████████████████████████████▏| 1.7MB 1.9MB/s eta 0:00:01[K    98% |███████████████████████████████▍| 1.7MB 1.9MB/s eta 0:00:01[K    98% |███████████████████████████████▋| 1.7MB 1.9MB/s eta 0:00:01[K    99% |███████████████████████████████▉| 1.7MB 2.0MB/s eta 0:00:01[K    99% |████████████████████████████████| 1.7MB 2.0MB/s eta 0:00:01[K    100% |████████████████████████████████| 1.7MB 1.8MB/s 
+[?25hCollecting decorator>=4.3.0 (from networkx)
+  Downloading https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl
+Building wheels for collected packages: networkx
+  Running setup.py bdist_wheel for networkx ... [?25l- \ | / - \ | done
+[?25h  Stored in directory: /Users/jwatts/Library/Caches/pip/wheels/68/f8/29/b53346a112a07d30a5a84d53f19aeadaa1a474897c0423af91
+Successfully built networkx
+Installing collected packages: decorator, networkx
+Successfully installed decorator-4.3.0 networkx-2.2
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ pip install mysqldb
+Collecting mysqldb
+[31m  Could not find a version that satisfies the requirement mysqldb (from versions: )[0m
+[31mNo matching distribution found for mysqldb[0m
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ pip install mysqldb[K[K[K[K[K[K[KNySQLdb[1PySQLdbMySQLdb
+Collecting MySQLdb
+[31m  Could not find a version that satisfies the requirement MySQLdb (from versions: )[0m
+[31mNo matching distribution found for MySQLdb[0m
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ pip install MySQLdb[K[K[K[K[K[K[Kmysqlclient
+Collecting mysqlclient
+[?25l  Downloading https://files.pythonhosted.org/packages/f7/a2/1230ebbb4b91f42ad6b646e59eb8855559817ad5505d81c1ca2b5a216040/mysqlclient-1.3.14.tar.gz (91kB)
+[K    11% |███▋                            | 10kB 574kB/s eta 0:00:01[K    22% |███████▏                        | 20kB 1.1MB/s eta 0:00:01[K    33% |██████████▊                     | 30kB 1.6MB/s eta 0:00:01[K    44% |██████████████▍                 | 40kB 1.1MB/s eta 0:00:01[K    56% |██████████████████              | 51kB 1.4MB/s eta 0:00:01[K    67% |█████████████████████▌          | 61kB 1.7MB/s eta 0:00:01[K    78% |█████████████████████████       | 71kB 2.0MB/s eta 0:00:01[K    89% |████████████████████████████▊   | 81kB 1.5MB/s eta 0:00:01[K    100% |████████████████████████████████| 92kB 1.7MB/s 
+[?25h    Complete output from command python setup.py egg_info:
+    /bin/sh: mysql_config: command not found
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/private/var/folders/tr/bnjjnphs3ys4l9fllmjxnzz5b1fp66/T/pip-install-t21muvc2/mysqlclient/setup.py", line 16, in <module>
+        metadata, options = get_config()
+      File "/private/var/folders/tr/bnjjnphs3ys4l9fllmjxnzz5b1fp66/T/pip-install-t21muvc2/mysqlclient/setup_posix.py", line 53, in get_config
+        libs = mysql_config("libs_r")
+      File "/private/var/folders/tr/bnjjnphs3ys4l9fllmjxnzz5b1fp66/T/pip-install-t21muvc2/mysqlclient/setup_posix.py", line 28, in mysql_config
+        raise EnvironmentError("%s not found" % (mysql_config.path,))
+    OSError: mysql_config not found
+    
+    ----------------------------------------
+[31mCommand "python setup.py egg_info" failed with error code 1 in /private/var/folders/tr/bnjjnphs3ys4l9fllmjxnzz5b1fp66/T/pip-install-t21muvc2/mysqlclient/[0m
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ brew install mysql-connector-c
+[4;33mWarning[0m: You are using OS X 10.14.
+We do not provide support for this pre-release version.
+You may encounter build failures or other breakages.
+[1;32m==>[1;39m Installing dependencies for mysql-connector-c: [1;32msphinx-doc, cmake[0m[0m
+[1;32m==>[1;39m Installing mysql-connector-c dependency: [1;32msphinx-doc[0m[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/S/Sphinx/Sphinx-1.3.6.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%###                                                                        4.4%###############                                                           20.9%################################                                          45.8%###################################################                       71.6%######################################################################## 100.0%
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/a/alabaster/alabaster-0.7.7.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/B/Babel/Babel-2.2.0.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%##                                                                         3.1%######                                                                     8.5%##########                                                                15.2%################                                                          23.0%######################                                                    31.5%##############################                                            42.7%########################################                                  56.8%###################################################                       72.2%##################################################################        92.8%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/d/docutils/docutils-0.12.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%##############                                                            20.3%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.8.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%##########################                                                36.6%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/P/Pygments/Pygments-2.1.3.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%########                                                                  11.6%############################################                              62.3%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/p/pytz/pytz-2015.7.tar.bz2[0m
+######################################################################## 100.0%######################################################################## 100.0%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/s/six/six-1.10.0.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/s/snowballstemmer/snowballstemmer-1.2.1.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m Downloading https://pypi.python.org/packages/source/s/sphinx_rtd_theme/sphinx_rtd_theme-0.1.9.tar.gz[0m
+######################################################################## 100.0%######################################################################## 100.0%#######################                                                   32.8%######################################################################## 100.0%
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec/vendor --s[0m
+[1;34m==>[1;39m python -c import setuptools... --no-user-cfg install --prefix=/usr/local/Cellar/sphinx-doc/1.3.6/libexec --single-v[0m
+[1;34m==>[1;39m Caveats[0m
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+This formula is mainly used internally by other formulae.
+Users are advised to use `pip` to install sphinx-doc.
+[1;34m==>[1;39m Summary[0m
+🍺  /usr/local/Cellar/sphinx-doc/1.3.6: 2,726 files, 38.0M, built in 21 seconds
+[1;32m==>[1;39m Installing mysql-connector-c dependency: [1;32mcmake[0m[0m
+[1;34m==>[1;39m Downloading https://cmake.org/files/v3.5/cmake-3.5.0.tar.gz[0m
+                                                                           0.7%#                                                                          2.6%###                                                                        4.8%######                                                                     8.4%##########                                                                15.0%###############                                                           22.2%#########################                                                 35.8%##################################                                        48.2%###########################################                               60.6%####################################################                      73.1%#############################################################             85.7%######################################################################    98.4%######################################################################## 100.0%
+[1;34m==>[1;39m ./bootstrap --prefix=/usr/local/Cellar/cmake/3.5.0 --no-system-libs --parallel=8 --datadir=/share/cmake --docdir=/s[0m
+Last 15 lines from /Users/jwatts/Library/Logs/Homebrew/cmake/01.bootstrap:
+--system-curl
+--sphinx-man
+--sphinx-build=/usr/local/opt/sphinx-doc/bin/sphinx-build
+
+---------------------------------------------
+CMake 3.5.0, Copyright 2000-2016 Kitware, Inc.
+---------------------------------------------
+Error when bootstrapping CMake:
+Cannot find appropriate C compiler on this system.
+Please specify one using environment variable CC.
+See cmake_bootstrap.log for compilers attempted.
+
+---------------------------------------------
+Log of errors: /private/tmp/cmake20181219-45998-14b03u5/cmake-3.5.0/Bootstrap.cmk/cmake_bootstrap.log
+---------------------------------------------
+^[[A^[[B^C
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ cc
+clang: error: no input files
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ [K(rstudio) macbook-bro:Website jwatts$ [K(rstudio) macbook-bro:Website jwatts$ cc
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ sudo scodebuild -license
+Password:
+sudo: scodebuild: command not found
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ sudo scodebuild -license[1P[1@x
+
+
+You have not agreed to the Xcode license agreements. You must agree to both license agreements below in order to use Xcode.
+
+Hit the Enter key to view the license agreements at '/Applications/Xcode.app/Contents/Resources/English.lproj/License.rtf'
+
+[?1h=Apple Inc.
+
+Xcode and Apple SDKs Agreement
+
+PLEASE SCROLL DOWN AND READ ALL OF THE FOLLOWING TERMS AND CONDITIONS CAREFULLY BEFORE USING THE APPLE SOFTWARE OR APPL E SERVICES.  THIS IS A LEGAL AGREEMENT BETWEEN YOU AND APPLE.  IF YOU AGREE TO BE BOUND BY ALL OF THE TERMS AND CONDITI ONS, CLICK THE “AGREE” BUTTON.  BY CLICKING “AGREE” OR BY DOWNLOADING, USING OR COPYING ANY PART OF THIS APPLE SOFTWARE  OR USING ANY PART OF THE APPLE SERVICES, YOU ARE AGREEING ON YOUR OWN BEHALF AND/OR ON BEHALF OF YOUR COMPANY OR ORGAN IZATION TO THE TERMS AND CONDITIONS STATED BELOW.  IF YOU DO NOT OR CANNOT AGREE TO THE TERMS OF THIS AGREEMENT, YOU CA NNOT USE THIS APPLE SOFTWARE OR THE APPLE SERVICES.  DO NOT DOWNLOAD OR USE THIS APPLE SOFTWARE OR APPLE SERVICES IN TH AT CASE.
+
+1.      Definitions
+Whenever capitalized in this Agreement:
+
+“Agreement” means this Xcode and Apple SDKs Agreement.
+
+“Apple” means Apple Inc., a California corporation with its principal place of business at One Infinite Loop, Cupertino , California 95014, U.S.A.
+
+“Apple Developer Program License Agreement” means a separate agreement that may be entered into between You and Apple r [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Kegarding the development and submission of Applications to the App Store for approval and digital signing by Apple, dev elopment of libraries for iOS, watchOS, and/or tvOS, and the use of Apple services such as the Apple Push Notification  Service, In-App Purchase, and iCloud, among other things.
+
+“Apple Maps Service” means the mapping platform and Map Data provided by Apple via the MapKit API (which is the documen ted API that enables You to add mapping features or functionality to Applications).  
+
+“Apple Services” or “Services” means the developer services that Apple provides to You under this Agreement solely for  use with Your Applications and not for use by You as an end-user (e.g., Game Center, Apple Maps Service, any Apple-cert ificate issuance services, etc.), including any Updates thereto (if any) that may be provided to You by Apple.  
+
+“Apple Software” means the Xcode Developer Tools and the Apple SDKs, including any Updates thereto (if any) that may be  provided to You by Apple.
+
+“Apple SDKs” means the macOS SDK, and the Apple-proprietary Software Development Kits (SDKs) provided hereunder, includ ing but not limited to header files, APIs, libraries, simulators, and software (source code and object code) labeled as  part of the iOS SDK, watchOS SDK and/or tvOS SDK and included in the Xcode Developer Tools package for purposes of tar geting Apple-branded products running iOS, watchOS, or tvOS.
+ 
+“Application” means a software program (including extensions and media that are enclosed in a single software bundle) d eveloped by You hereunder, for use under Your own name, trademark or brand, and specifically for use on Apple-branded p [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Kroducts running macOS, iOS, watchOS, tvOS, as applicable, including new releases and new versions of such software prog ram, but excluding libraries for iOS, watchOS, or tvOS applications.  
+
+For clarity, the term Application as used in this Agreement excludes libraries that are for use in Applications designe d for iOS, watchOS, or tvOS.  Such libraries can be developed by You only under the terms of the Apple Developer Progra m License Agreement.  
+
+“Authorized Developers” means Your employees and contractors, members of Your organization or, if You are an educationa l institution, Your faculty, staff and students, who: (a) have a demonstrable need to know or use the Apple Software or  Apple Services in order to develop and test Applications, and (b) to the extent they will access Apple Confidential In formation, have written and binding agreements with You that prohibit the unauthorized use and disclosure of such confi dential information.
+
+“Authorized Test Units” means Apple-branded hardware units owned or controlled by You that have been designated by You  for Your own testing and development purposes, and, if You permit, Apple-branded hardware units owned or controlled by  Your Authorized Developers so long as such units are used for testing and development purposes on Your behalf and only  as permitted hereunder. 
+
+“Documentation” means the technical or other specifications or documentation that Apple may provide to You for use in c onnection with the Apple Software, Apple Services, Apple certificates, or as otherwise provided hereunder. 
+
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K“FOSS” (Free and Open Source Software) means any software that is subject to terms that, as a condition of use, copying , modification or redistribution, require such software and/or derivative works thereof to be disclosed or distributed  in source code form, to be licensed for the purpose of making derivative works, or to be redistributed free of charge,  including without limitation software distributed under the GNU General Public License or GNU Lesser/Library GPL.
+
+“macOS SDK” means the Apple-proprietary Software Development Kits (SDKs) provided hereunder, including but not limited  to header files, APIs, libraries, simulators, and software (source code and object code) labeled as part of the macOS S DK and included in the Xcode Developer Tools package for purposes of targeting Apple-branded products running macOS.
+ 
+“Map Data” means any content, data or information provided through the Apple Maps Service including, but not limited to , imagery, terrain data, latitude and longitude coordinates, transit data, points of interest and traffic data. 
+
+“Program Requirements” mean the technical, human interface, design, product category, security, performance, and other  criteria and requirements for Applications specified by Apple in the Apple Developer Program License Agreement.  
+
+“Provisioning Profiles” means the time-limited files (including applicable entitlements, certificates or other identifi ers) that may be provided by Apple for use by You in connection with Your Application development and testing.
+
+“Updates” means bug fixes, updates, upgrades, modifications, enhancements and supplements to the Apple Software or Appl e Services, and any new releases or versions thereof.
+
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K“Xcode Developer Tools” means the Apple-proprietary development platform, including but not limited to software tools,  compilers, sample code, Documentation, programming languages, and overall design package provided by Apple hereunder, e xcluding the Apple SDKs.
+
+“You” or “Your” means the person(s) or entity using the Apple Software or Services or otherwise exercising rights under  this Agreement.  If You are entering into this Agreement on behalf of Your company, organization, educational institut ion, or an agency, instrumentality, or department of the federal government, “You” or “Your” refers to your company, or ganization, educational institution or agency, instrumentality, or department of the federal government as well.
+
+2.      Internal Use License and Restrictions
+2.1     Authority to Enter into Agreements 
+You certify to Apple that You have the right and authority to enter into this Agreement on Your own behalf, or if You a re entering into this Agreement on behalf of Your company, organization, educational institution, or agency, instrument ality, or department of the federal government, that You have the right and authority to legally bind such entity or or ganization to the terms and obligations of this Agreement.  Further, You agree to comply with the terms of and fulfill  Your obligations under this Agreement, including obtaining any required consents for Your Authorized Developers’ use of  the Apple Software and Services (e.g., as part of Your Applications), and You agree to monitor and be fully responsibl e for all such use by Your Authorized Developers and their compliance with the terms of this Agreement.  You acknowledg e that You will be solely responsible for all costs, expenses, losses and liabilities incurred, and activities undertak en by You and Your Authorized Developers in connection with the Apple Software and Apple Services, Your Applications an d Your related development and limited distribution efforts.  
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K
+2.2     Permitted Uses and Restrictions
+Subject to the terms and conditions of this Agreement, Apple hereby grants You during the Term, a limited, non-exclusiv e, personal, revocable, non-sublicensable, non-transferable, and internal use license to:
+
+A.      Install a reasonable number of copies of the Apple Software on Apple-branded computers that are owned or contro lled by You to be used internally by You or Your Authorized Developers only as follows:
+
+(i)     You may use the Xcode Developer Tools to test and develop application and other software; 
+
+(ii)    You may use the macOS SDKs to test and develop application and other software;
+
+(iii)   You may use the Apple SDKs (excluding the macOS SDK) solely to test and develop Applications that are specifica lly for use with the applicable Apple-branded products for which the SDK is targeted, unless otherwise permitted by App le in writing; and
+
+(iv)    You may use the Apple Services solely to test and develop Applications that are specifically for use on Apple-b randed products, unless otherwise permitted by Apple in writing.
+
+Except as otherwise expressly set forth in Section 2.2.B., You may not distribute any Applications developed using the  Apple SDKs (excluding the macOS SDK) absent entering into a separate written agreement with Apple. 
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K
+B.      Use Provisioning Profiles to install Your Applications onto a reasonable, limited number of Authorized Test Uni ts solely for use by You and/or Your Authorized Developers and only for internal testing and development of Your Applic ations, or for Your own personal, non-commercial use.  
+
+Apple reserves the right to limit the number of Authorized Test Units that You may provision for iOS, watch OS, and tvO S as well as the number of Authorized Developers (and Apple IDs) that You may register with the Apple Software for such  provisioning.  You agree to be solely responsible for determining which Authorized Developers in Your company or organ ization should have access to and use of Your Applications and such Authorized Test Units.  You agree to clearly inform  Your Authorized Developers that Your Applications that are deployed using Your Provisioning Profiles are to be used on ly by them (and not by any third parties) and are solely for use for internal testing and development purposes on Your  behalf.  You will be responsible for attaching or otherwise including, at Your discretion, any relevant usage terms for  such Applications.  Apple will not be responsible for any violations of Your usage terms.  You will be solely responsi ble for all user assistance, warranty and support of Your Applications that are deployed by You under this Agreement. 
+
+2.3     Apple IDs
+You agree to register only a reasonable number of Apple IDs in the Apple Software and Apple Services for deployment and  provisioning purposes.  You agree to ensure that such Apple IDs are associated with You or Your Authorized Developers.   You agree that all information provided to Apple by You or Your Authorized Developers in obtaining such Apple IDs or  entering them into the Apple Software or Services will be current, true, accurate, supportable and complete.  You agree  not to fraudulently misrepresent or improperly acquire more Apple IDs than are necessary for Your own reasonable testi [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Kng and development purposes.  You understand that Apple may disable Your right to use Apple IDs within the Apple Softwa re or may revoke Your Provisioning Profiles at any time in its sole discretion (e.g., if Apple suspects fraudulent or m alicious activity with Your use of the Apple Software or Services).
+
+2.4     Apple Developer Program 
+If You would like a third-party to use Your Application for iOS, watchOS or tvOS, or You would like to distribute Your  Application for macOS through the App Store, then You must enter into a separate written agreement with Apple (the Appl e Developer Program License Agreement) and Your Application must comply with the Program Requirements and Documentation .  Information regarding the Program Requirements is available at:  http://developer.apple.com/programs/ios/information /index.html.  Apple reserves the right to change the Program Requirements and/or the terms of the Apple Developer Progr am License Agreement from time to time.  You are fully responsible for any and all costs, expenses or other liabilities  You may incur as a result of Your development or use of the Apple Software or Services.  For clarity, macOS applicatio ns and libraries may be distributed without entering into a separate written agreement with Apple so long as such appli cations and libraries comply with the terms of this Agreement.
+
+2.5     Copies  
+You agree to retain and reproduce in full the Apple copyright, disclaimers and other proprietary notices in all copies  of the Apple Software that You are permitted to make under this Agreement.  For clarity, You may copy only the entire p ackage or piece of the Apple Software and Services in its entirety and only for use as permitted herein.  You may not a lter the Apple Software or Services in any way in such copy, e.g., You are expressly prohibited from separately using t he Apple SDKs or attempting to run any part of the Apple Software on non-Apple-branded hardware.  Images contained in t [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Khe Documentation may not be separately copied or used outside of the Documentation. 
+
+2.6      Ownership
+Apple retains all rights, title, and interest in and to the Apple Software and Apple Services.  The parties acknowledge  that this Agreement does not give Apple any ownership interest in Your Applications.
+
+2.7     Restrictions; No Other Permitted Uses
+The grants set forth in this Agreement do not permit You to, and You agree not to, install, use or run the Apple Softwa re or Apple Services on any non-Apple-branded computer or device, or to enable others to do so.  This Agreement does no t allow the Apple Software or Services to be made available over a network where they could be run or used by multiple  computers at the same time, unless otherwise expressly permitted in writing by Apple.  Further, unless otherwise expres sly permitted by Apple in writing, You agree not to rent, lease, lend, upload to or host on any website or server, sell , redistribute, or sublicense the Apple Software and Apple Services, in whole or in part, or to enable others to do so.   You may not use the Apple Software and Apple Services for any purpose not expressly permitted by this Agreement.  You  may not and You agree not to, or to enable others to, copy (except as expressly permitted under this Agreement), decom pile, reverse engineer, disassemble, attempt to derive the source code of, modify, decrypt, or create derivative works  of the Apple Software or Services, or any part thereof (except as and only to the extent any foregoing restriction is p rohibited by applicable law, or to the extent as may be permitted by licensing terms governing use of open-sourced comp onents or sample code included with the Apple Software).  You agree not to exploit the Apple Services or Apple Software  in any unauthorized way whatsoever, including but not limited to, by trespass or burdening network capacity.  Further,  as a condition to using the Apple Software and Apple Services, You agree that You will not, directly or indirectly, co [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Kmmit any act intended to interfere with the Apple Software or Apple Services.  All licenses not expressly granted in th is Agreement are reserved and no other licenses, immunity or rights, express or implied are granted by Apple, by implic ation or otherwise.  This Agreement does not grant You any rights to use any trademarks, logos or service marks belongi ng to Apple, including but not limited to the iPhone or iPod word marks.  If You make reference to any Apple products o r technology or use Apple’s trademarks, You agree to comply with the guidelines at: http://www.apple.com/legal/trademar k/guidelinesfor3rdparties.html, as modified by Apple from time to time.  
+
+2.8     Updates; No Support or Maintenance
+Apple may extend, enhance, or otherwise modify the Apple Software and Apple Services at any time without notice, but Ap ple is not obligated to provide You with any Updates to the Apple Software and Apple Services.  If Apple makes Updates  available, the terms of this Agreement will govern such Updates, unless the Update is accompanied by a separate license  in which case the terms of that license will govern.  Apple is not obligated to provide any maintenance, technical or  other support for the Apple Software and Apple Services.  You acknowledge that Apple has no express or implied obligati on to announce or make available any Updates of the Apple Software and Apple Services to anyone in the future.  Should  an Update be made available, it may have APIs, features, services or functionality that are different from those found  in the Apple Software and Apple Services licensed hereunder.
+
+2.9     Use of Apple Services in Your Applications
+Apple may provide access to Apple Services that Your Applications may call through APIs in the Apple Software and/or th at Apple makes available to You through other mechanisms, e.g., through the use of keys that Apple may make accessible  to You through the Apple Software or Apple Services.  You agree to access such Apple Services only through the mechanis [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Kms provided by Apple for such access and only for use on Apple-branded products.  Except as expressly permitted by Appl e in writing, You agree not to share access to mechanisms provided to You by Apple for the use of Apple Services with a ny third party.  Further, You agree not to create or attempt to create a substitute or similar service through use of o r access to the Apple Services.  
+
+You agree to access and use such Services only as necessary for providing services and functionality for Your Applicati ons that are eligible to use such Services and only as permitted by Apple in writing, including in the Documentation.   You may not use the Apple Services in any manner that is inconsistent with the terms of this Agreement or that infringe s any intellectual property rights of a third party or Apple, or that violates any applicable laws or regulations.  You  agree that the Apple Services contain proprietary content, information and material owned by Apple and its licensors,  and protected by applicable intellectual property and other laws.  You may not use such proprietary content, informatio n or materials in any way whatsoever, except for the permitted uses of the Apple Services under this Agreement, or as o therwise separately and expressly permitted by Apple in writing.
+
+You acknowledge that there may be storage capacity, transmission, and/or transactional limits for the Apple Services bo th for You as a developer and for Your Authorized Developers.  If You reach or Your Authorized Developers reach such li mits, then You or Your Authorized Developer may be unable to use the Apple Services or may be unable to access or retri eve data from Your Applications or through the applicable end-user accounts.  You agree not to charge any fees to Your  Authorized Developers solely for access to or use of the Apple Services through Your Application or for any content, da ta or information provided therein, and You agree not to sell access to the Apple Services in any way. 
+
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KApple Services may not be available in all languages or in all countries, and Apple makes no representation that any su ch Services would be appropriate, accurate or available for use in any particular location or product.  To the extent Y ou choose to use the Apple Services with Your Applications, You do so at Your own initiative and are responsible for co mpliance with any applicable laws.
+
+Apple reserves the right to change, suspend, deprecate, remove, limit, or disable access to the Apple Services, or any  part thereof, at any time without notice (including revoking entitlements or changing any APIs in the Apple Software th at enable access to the Services).  In no event will Apple be liable for the removal of or disabling of access to any o f the foregoing.  Apple may also impose limits and restrictions on the use of or access to the Apple Services, may remo ve the Apple Services for indefinite time periods, may revoke Your access to the Apple Services, or may cancel the Appl e Services (or any part thereof) at any time without notice or liability to You and in its sole discretion.  
+
+Apple does not guarantee the availability, accuracy, completeness, reliability, or timeliness of any data or informatio n displayed by any Apple Services.  You are responsible for Your use of the Apple Software and Apple Services, and if Y ou use such Services to store any content, data, or information, then it is Your responsibility to maintain appropriate  alternate backup of all Your content, information, and data.  You understand and agree that You may not be able to acc ess certain Apple Services upon expiration or termination of this Agreement and that Apple reserves the right to suspen d access to or delete content, data or information that You have stored through Your use of such Services provided here under.  You should review the Documentation and policy notices posted by Apple prior to using any Apple Services.  Cert ain Apple Services may not be made available for Applications on all Apple-branded products and may not be made availab le to all developers.  Apple reserves the right to not provide (or to cease providing) the Apple Services to any or all [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K developers at any time in its sole discretion.
+
+2.10    Xcode Server 
+If You access the Xcode Server feature of the Apple Software (e.g., via the command line tools), then You may use the X code Server feature for Your own personal use or within Your company or organization, but solely for Your own internal  testing and development purposes.  You may not provide a service to any other party that integrates with or leverages s ervices or information provided by Xcode Server or uses the Xcode Server feature in any way.  As a condition of using t he Xcode Server feature of the Apple Software, You represent and warrant to Apple that You (and any user of a client-co mputer that You permit to access Xcode Server on Your behalf) are appropriately licensed to use the applicable services , features or functionality of the Xcode Developer Tools, the Apple SDKs and/or the Apple Developer Program account and  associated resources accessed through Xcode Server (e.g., anyone attempting to gain access to Your Apple Developer cer tificates stored on Xcode Server must be a member of Your paid Apple Developer Program account team).  You agree to mon itor and will be responsible for all such use by any user of a client-computer that You permit to access Xcode Server a nd their compliance with the terms of this Agreement and other applicable license agreements.
+
+2.11    QuickTime Development Software
+You may use the QuickTime development software only to develop application software that is compatible with, and runs o nly on supported macOS and/or Windows platforms with QuickTime installed.  Your software application may not interfere  with the functionality of QuickTime Player or the QuickTime Plug-in, including but not limited to file type or MIME typ e associations that are registered to QuickTime.
+
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K2.12    System-Provided Images
+The system-provided images owned by Apple and documented as such in Apple's Human Interface Guidelines for iOS, watchOS , tvOS, and/or macOS (“System-Provided Images”) are licensed to You solely for the purpose of developing Applications f or Apple-branded products that run on the system for which the image was provided.  Upon termination of this Agreement,  You may continue to distribute the System-Provided Images as used within Applications You developed using the Apple So ftware.
+
+2.13    Additional Restrictions for Applications
+
+A.      Use of the Apple Maps Service; Location
+If Your Application uses or accesses the Map Kit API from a device running iOS version 6 or later, Your Application wil l access and use the Apple Maps Service.  All use of the Map Kit API and Apple Maps Service must be in accordance with  the terms of this Agreement, and You agree that the Apple Maps Service is solely for use by Applications running on App le-branded products.  Your Application may use the MapKit API only to access the Apple Maps Service and/or Map Data in  Your Applications (except as otherwise set forth below).  
+
+As part of such access to the Apple Maps Service and/or Map Data through the MapKit API:
+
+-  Your Application must not remove, obscure or alter Apple’s or its licensors’ copyright notices, trademarks, or any o ther proprietary rights or legal notices, documents or hyperlinks that may appear in or be provided through the Apple M aps Service;
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K
+-  You must not use the Apple Maps Service in any manner that enables or permits bulk downloads or feeds of the Map Dat a, or any portion thereof, or that in any way attempts to extract, scrape or reutilize any portions of the Map Data.  F or example, neither You nor Your Application may use or make available the Map Data, or any portion thereof, as part of  any secondary or derived database;
+
+-  Your Application may display the Map Data only as permitted herein, and when displaying it on a map, You agree that  it will be displayed only on an Apple map provided through the Apple Maps Service; 
+
+-  Except to the extent expressly permitted herein, You agree not to copy, modify, translate, create a derivative work  of, publish or publicly display the Map Data in any way.  Further, You may not use or compare the data provided by the  Apple Maps Service for the purpose of improving or creating another mapping service;
+
+-  Unless otherwise expressly permitted in the MapKit Documentation for the Apple Maps Service, Map Data may not be cac hed, pre-fetched, or stored by You or Your Application, other than on a temporary and limited basis solely to improve t he performance of the Apple Maps Service with Your Application; 
+
+-  You acknowledge and agree that results You may receive from the Apple Maps Service may vary from actual conditions d ue to variable factors that can affect the accuracy of Map Data, such as road or weather conditions; and  
+
+-  If Your Application accesses the MapKit API from a device running iOS version 5 or earlier, Your Application will ac [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Kcess and use only the Google Mobile Maps (GMM) service.  Such use of the GMM is subject to the following terms: http:// code.google.com/apis/maps/terms/iPhone.html.  If You do not accept such terms, You may not use the GMM service in Your  Application, and You acknowledge and agree that such use will constitute Your acceptance of such terms.
+
+Applications that use location-based APIs (e.g., Core Location, MapKit API) or otherwise provide location-based service s may not be designed or marketed for automatic or autonomous control of vehicle behavior, or for emergency or life-sav ing purposes.  Map Data and other location data provided by Apple is not intended to be relied upon in situations where  precise location information is needed or where erroneous, delayed, non-existent, inaccurate or incomplete location da ta may lead to death, personal injury, property or environmental damage.  
+
+If You choose to provide Your own location-based service, data and/or information in conjunction with the Apple maps pr ovided through the Apple Maps Service (e.g., overlaying a map or route You have created on top of an Apple map), You ar e solely responsible for ensuring that Your service, data and/or information correctly aligns with any Apple maps used.   For Applications that use location-based APIs for real-time navigation (including, but not limited to, turn-by-turn r oute guidance and other routing that is enabled through the use of a sensor), You must have an end-user license agreeme nt that includes the following notice:  YOUR USE OF THIS REAL TIME ROUTE GUIDANCE APPLICATION IS AT YOUR SOLE RISK.  LO CATION DATA MAY NOT BE ACCURATE.  Further, any Applications that offer location-based services or location-based functi onality must notify and obtain consent from an individual before his or her location data is collected, transmitted or  otherwise used by the Application.  
+
+B.      Use of the HealthKit APIs and the HomeKit APIs
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KYou may use the HealthKit APIs only for internal testing and development purposes for Your Application.  Your Applicati on must not access the HealthKit APIs unless it is primarily designed to provide health and/or fitness services.  You m ust not use the HealthKit APIs, or any information obtained through the HealthKit APIs, to disclose or provide an end-u ser’s health and/or fitness information to any third party and may only use such APIs for internal testing and developm ent purposes for Your Application.  If Your Application accesses NikeFuel points information through the HealthKit APIs , then Your use of the NikeFuel points information is subject to the NikeFuel points terms of service set forth at: htt ps://developer.nike.com/healthkit/nikefuel-use-agreement.html.  If You do not accept such NikeFuel points terms of serv ice, including, but not limited to all limitations and restrictions therein, You may not use such NikeFuel points infor mation in Your Application, and You acknowledge and agree that such use will constitute Your acceptance of such terms o f service.
+
+You may use the HomeKit APIs only for internal testing and development purposes for Your Application.  Your Application  must not access the HomeKit APIs unless it is primarily designed to provide home configuration or home automation serv ices (e.g., turning on a light, lifting a garage door) for hardware accessories licensed under Apple’s MFi Program.  Yo u agree not to use the HomeKit APIs for any purpose other than interfacing, communicating, interoperating with or other wise controlling hardware accessories licensed under Apple’s MFi Program or for using the HomeKit database, and then on ly for home configuration or home automation purposes in connection with Your Application.  Your Application may use in formation obtained from the HomeKit APIs and/or the HomeKit database only on an Apple-branded product running iOS.  You  agree not to export, remotely access, or transfer such information off such device (e.g., a lock password cannot be se nt off an end-user’s device to be stored in an external non-Apple database). 
+
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KC.      Compliance with Laws
+You agree that neither You nor Your Applications will disable, override or otherwise interfere with any Apple-implement ed system alerts, warnings, display panels, consent panels and the like.  You understand and agree that You and Your Ap plications must comply with all applicable criminal, civil and statutory laws and regulations (including privacy, data  collection and location service laws and regulations) in any jurisdictions in which Your Applications may be delivered.   You shall be solely responsible for, and Apple shall have no responsibility or liability whatsoever with respect to,  any and all claims, suits, liabilities, losses, damages, costs and expenses arising from, related or attributable to, o r otherwise involving Your Application. 
+
+You agree not to use the Apple Software and Services for any unlawful or illegal activity, nor to develop any Applicati on that would commit or facilitate the commission of a crime, or other tortious, unlawful, or illegal act.  You agree t hat, to the best of Your knowledge and belief, Your Applications will not violate, misappropriate, or infringe any Appl e or third party copyrights, trademarks, rights of privacy and publicity, trade secrets, patents, or other proprietary  or legal rights (e.g. musical composition or performance rights, video rights, photography or image rights, logo rights , third party data rights, etc. for content and materials that may be included in Your Application).  Further, You agre e not to use the Apple Software or Apple Services to create any Application or other software program that would disabl e, hack or otherwise interfere with any security, digital signing, digital rights management, content protection, verif ication or authentication mechanisms implemented in or by the Apple Software or the Apple Services, or by other Apple s oftware, services or technology, or enable others to do so, unless otherwise permitted by Apple in writing.
+
+Applications must not contain any malware, malicious or harmful code, program, or other internal component (e.g. comput [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Ker viruses, trojan horses, “backdoors”) and may not use any Apple Software or services in a way that could damage, dest roy, or adversely affect Apple hardware, software or services, or any other software, firmware, hardware, data, systems , services, or networks.  If Your Application includes any FOSS, You agree to comply with all applicable FOSS licensing  terms, and You agree not to use any FOSS in the development of Your Application in such a way that would cause the non -FOSS portions of the Provisioning Profiles, Apple Software, Services, or any Apple-issued certificates to be subject t o any FOSS licensing terms or obligations.
+
+3.      Pre-Release Software and Services
+Note:  This Agreement applies to both the commercial release versions of the Apple Software and pre-release versions of  the Apple Software, as applicable.  You should review the release notes provided with the Apple Software if You are un certain about Your confidentiality obligations or visit developer.apple.com for more information about pre-release vers ions.  
+
+3.1     Using Pre-Release Apple Software and Services 
+Pre-release versions of the Apple Software or Apple Services should not be relied upon to perform in the same manner as  a final-release, commercial-grade product, nor should they be used with data that is not sufficiently and regularly ba cked up.  The pre-release Apple Software and Apple Services may contain inaccuracies or errors that could cause failure s or loss of data and may be incomplete.  You should back up Your data prior to using any pre-release Apple Software an d Apple Services and not rely on them to perform in the same way as a commercial release of the Apple Software and Serv ices.
+
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K3.2     Confidentiality
+You agree that pre-release versions of the Apple Software and Apple Services (including pre-release Documentation) will  be deemed “Apple Confidential Information”; provided however that upon the commercial release of the Apple Software an d Apple Services, such pre-release versions of the Apple Software and Apple Services will no longer be confidential.  N otwithstanding the foregoing, Apple Confidential Information will not include: (i) information that is generally and le gitimately available to the public through no fault or breach of Yours, (ii) information that is generally made availab le to the public by Apple, (iii) information that is independently developed by You without the use of any Apple Confid ential Information, (iv) information that was rightfully obtained from a third party who had the right to transfer or d isclose it to You without limitation, or (v) any FOSS included in the Apple Software and Apple Services and accompanied  by licensing terms that do not impose confidentiality obligations on the use or disclosure of such FOSS.  Further, App le agrees that You will not be bound by the foregoing confidentiality terms with regard to technical information about  pre-release Apple Software or Apple Services disclosed by Apple at WWDC (Apple’s Worldwide Developers Conference), exce pt that You may not post screen shots of, write public reviews of, or redistribute any pre-release Apple Software or Se rvices.
+
+You agree to protect Apple Confidential Information using at least the same degree of care that You use to protect Your  own confidential information of similar importance, but no less than a reasonable degree of care.  You agree to use Ap ple Confidential Information solely for the purpose of exercising Your rights and performing Your obligations under thi s Agreement and agree not to use Apple Confidential Information for any other purpose, for Your own or any third party’ s benefit, without Apple's prior written consent.  You further agree not to disclose or disseminate Apple Confidential  Information to anyone other than: (i) Authorized Developers; or (ii) as otherwise agreed or permitted in writing by App [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Kle.  You may disclose Apple Confidential Information to the extent required by law, provided that You take reasonable s teps to notify Apple of such requirement before disclosing the Apple Confidential Information and to obtain protective  treatment of the Apple Confidential Information.  You acknowledge that damages for improper disclosure of Apple Confide ntial Information may be irreparable; therefore, Apple is entitled to seek equitable relief, including injunction and p reliminary injunction, in addition to all other remedies.
+
+4.      Indemnification 
+To the extent permitted by applicable law, You agree to indemnify, defend and hold harmless Apple, its directors, offic ers, employees, independent contractors and agents (each an “Apple Indemnified Party”) from any and all claims, losses,  liabilities, damages, expenses and costs (including without limitation attorneys' fees and court costs) (collectively  “Losses”) incurred by an Apple Indemnified Party as a result of Your breach of this Agreement, a breach of any certific ation, covenant, representation or warranty made by You in this Agreement, any claims that Your Applications violate or  infringe any third party intellectual property or proprietary rights, or otherwise related to or arising from Your use  of the Apple Software and Apple Services, Your Applications, Your development of Applications, or Your loading of Appl ications and limited distribution as permitted hereunder.  You acknowledge that the Apple Software and Apple Services i s not intended for use in the development of Applications in which errors or inaccuracies in the content, functionality , services, data or information provided by the Application or the failure of the Application could lead to death, pers onal injury, or severe physical or environmental damage, and, to the extent permitted by law, You hereby agree to indem nify, defend and hold harmless each Apple Indemnified Party from any Losses incurred by such Apple Indemnified Party by  reason of any such use.  In no event may You enter into any settlement or like agreement with a third party that affec ts Apple's rights or binds Apple in any way, without the prior written consent of Apple.
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K
+5.      Term and Termination
+The license to use this version of the Apple Software and Apple Services is effective until terminated as set forth her ein.  
+
+This Agreement and all rights under this Agreement will terminate automatically or cease to be effective without notice  from Apple if You or any of Your Authorized Developers fail to comply with any term(s) of this Agreement.  All rights  hereunder in any beta or pre-release versions of the Apple Software for a particular release will terminate upon the co mmercial release of such Apple Software.  
+
+Upon the termination of this Agreement for any reason, You agree to immediately cease all use of the Apple Software and  Apple Services and erase and destroy all copies, full or partial, of the Apple Software and Apple Services and all cop ies of Apple Confidential Information in Your and Your Authorized Developers' possession or control.  At Apple’s reques t, You agree to provide written certification of such destruction to Apple.  
+
+Apple reserves the right to revoke, disable or suspend any Provisioning Profiles or any access to the device deployment  and provisioning features of the Apple Software and Services at any time, in its sole discretion.  By way of example,  Apple may do this if Apple has reason to believe that Apple IDs were fraudulently obtained, that an unreasonable number  of devices have been entered into the Apple Software, and/or that the Services are being used in a fraudulent, suspici ous, or improper manner.   
+
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KThe following terms shall survive termination: Section 1, the last sentence of Section 2.1, the last two sentences of S ection 2.2B., the second to last sentence of Section 2.4, Section 2.6, Section 2.7, the last sentence of 2.12, and Sect ions 3, 4, 5, 6, 7, and 8.  Apple will not be liable for compensation, indemnity, or damages of any sort as a result of  terminating this Agreement in accordance with its terms, and termination of this Agreement will be without prejudice t o any other right or remedy Apple may have, now or in the future. 
+
+6.      NO WARRANTY
+A.      YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT, TO THE EXTENT PERMITTED BY APPLICABLE LAW, USE OF THE APPLE SOFTWARE  AND APPLE SERVICES IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND  EFFORT IS WITH YOU. 
+
+B.      TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE APPLE SOFTWARE AND APPLE SERVICES ARE PROVIDED “AS IS” A ND “AS AVAILABLE”, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND APPLE AND APPLE'S LICENSORS (COLLECTIVELY REFE RRED TO AS “APPLE” FOR THE PURPOSES OF SECTIONS 6 AND 7) HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH RESPECT TO  THE APPLE SOFTWARE AND APPLE SERVICES, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING WITHOUT LIMITATION THE IMPLIED W ARRANTIES AND CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, TIMELINE SS, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS.
+
+C.      APPLE DOES NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE APPLE SOFTWARE AND APPLE SERVICES, THAT  THE APPLE SOFTWARE AND APPLE SERVICES WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE APPLE SOFTWARE AND APPLE S ERVICES WILL BE UNINTERRUPTED OR ERROR-FREE, THAT DEFECTS IN THE APPLE SOFTWARE AND APPLE SERVICES WILL BE CORRECTED, O [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KR THAT THE APPLE SOFTWARE AND APPLE SERVICES WILL BE COMPATIBLE WITH FUTURE APPLE PRODUCTS OR SOFTWARE.  INSTALLATION O F THIS APPLE SOFTWARE AND USE OF THE APPLE SERVICES MAY AFFECT THE USABILITY OF THIRD PARTY SOFTWARE, APPLICATIONS OR T HIRD PARTY SERVICES AS WELL AS OTHER APPLE PRODUCTS OR SERVICES.
+
+D.      YOU FURTHER ACKNOWLEDGE THAT THE APPLE SOFTWARE AND APPLE SERVICES ARE NOT INTENDED OR SUITABLE FOR USE IN SITU ATIONS OR ENVIRONMENTS WHERE THE FAILURE OR TIME DELAYS OF, OR ERRORS OR INACCURACIES IN THE CONTENT, DATA OR INFORMATI ON PROVIDED BY, THE APPLE SOFTWARE OR APPLE SERVICES COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRO NMENTAL DAMAGE, INCLUDING WITHOUT LIMITATION THE OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION  SYSTEMS, AIR TRAFFIC CONTROL, LIFE SUPPORT OR WEAPONS SYSTEMS. 
+
+E.      NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY APPLE OR AN APPLE AUTHORIZED REPRESENTATIVE WILL CREATE A WAR RANTY.  SHOULD THE APPLE SOFTWARE AND APPLE SERVICES PROVE DEFECTIVE, YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVI CING, REPAIR OR CORRECTION.  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR LIMITATIONS ON APPL ICABLE STATUTORY RIGHTS OF A CONSUMER, SO THE ABOVE EXCLUSION AND LIMITATIONS MAY NOT APPLY TO YOU.
+
+7.      LIMITATION OF LIABILITY 
+TO THE EXTENT NOT PROHIBITED BY APPLICABLE LAW, IN NO EVENT WILL APPLE BE LIABLE FOR PERSONAL INJURY, OR ANY INCIDENTAL , SPECIAL, INDIRECT, CONSEQUENTIAL OR PUNITIVE DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF P ROFITS, CORRUPTION OR LOSS OF DATA, FAILURE TO TRANSMIT OR RECEIVE ANY DATA OR INFORMATION, BUSINESS INTERRUPTION OR AN Y OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO THIS AGREEMENT, YOUR USE OF OR INABILITY TO USE THE  APPLE SOFTWARE AND APPLE SERVICES, OR YOUR DEVELOPMENT EFFORTS, HOWEVER CAUSED, WHETHER UNDER A THEORY OF CONTRACT, WAR [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCTS LIABILITY, OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE POSSIBILITY  OF SUCH DAMAGES, AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY REMEDY.  SOME JURISDICTIONS DO NOT ALLOW  THE EXCLUSION OR LIMITATION OF LIABILITY FOR PERSONAL INJURY, OR OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITA TION MAY NOT APPLY TO YOU.  In no event shall Apple’s total liability to You under this Agreement for all damages (othe r than as may be required by applicable law in cases involving personal injury) exceed the amount of fifty dollars ($50 .00).
+
+8.      General Legal Terms
+8.1     Third Party Notices
+Portions of the Apple Software and Apple Services utilize or include third party software and other copyrighted materia l.  Acknowledgements, licensing terms and disclaimers for such material are contained in the electronic documentation f or the Apple Software and Apple Services, and Your use of such material is governed by their respective terms.  Further , certain software libraries and other third party software included with the Apple Software are free software and lice nsed under the terms of the GNU General Public License (GPL) or the GNU Library/Lesser General Public License (LGPL), a s the case may be.  You may obtain a complete machine-readable copy of the source code for such free software under the  terms of the GPL or LGPL, as the case may be, without charge except for the cost of media, shipping, and handling, upo n written request to Apple at opensource@apple.com.  The GPL/LGPL software is distributed in the hope that it will be u seful, but WITHOUT ANY WARRANTY, without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPO SE.  A copy of the GPL and LGPL is included with the Apple Software.
+
+8.2     Consent to Collection and Use of Data 
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KA.      Diagnostic and Usage Data  
+-  If You are running a pre-release version of the Apple Software and Services, then unless You opt out of diagnostic a nd usage collection, You agree that Apple and its subsidiaries and agents will collect, maintain, process and use diagn ostic, technical, usage and related information, including but not limited to unique system or hardware identifiers, in formation about Your computer, system and application software, and peripherals, that is gathered periodically and auto matically as part of the pre-release seeding process to test, provide and improve Apple’s products and services, facili tate the provision of software updates, product support and other services to You (if any) related to the Apple Softwar e, and to verify compliance with the terms of this Agreement.  
+
+-  If You are running a commercial version of the Apple Software and Services, then if You choose to allow diagnostic a nd usage collection, You agree that Apple and its subsidiaries and agents may collect, maintain, process and use diagno stic, technical, usage and related information, including but not limited to unique system or hardware identifiers, inf ormation about Your computer, system and application software, and peripherals, that is gathered periodically to provid e and improve Apple’s products and services, facilitate the provision of software updates, product support and other se rvices to You (if any) related to the Apple Software, and to verify compliance with the terms of this Agreement. 
+
+-  You may change Your preferences for Diagnostics & Usage collection at any time by going to the Diagnostics & Usage s etting in Your system software and deselecting the checkbox.  The Diagnostics & Usage setting is found in the Security  & Privacy pane within System Preferences.  Apple may use this information, so long as it is collected in a form that do es not personally identify You, for the purposes described above.  To enable Apple’s partners and third party developer s to improve their software, hardware and services designed for use with Apple products, Apple may also provide any suc [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[Kh partner or third party developer with a subset of diagnostic information that is relevant to that partner’s or develo per’s software, hardware and/or services, so long as the diagnostic information is in a form that does not personally i dentify You.
+
+B.      Device Provisioning Data
+In order to set up and use the device provisioning, account authentication, and deployment features of the Apple Softwa re and Services, certain unique identifiers for Your computer, iOS devices, watchOS devices, tvOS devices, and account  information may be needed.  These unique identifiers may include Your email address, Your Apple ID, a hardware identifi er for Your computer, and device identifiers entered by You into the Apple Software for Apple-branded products running  iOS,  watchOS, or tvOS.  Such identifiers and information may be logged in association with Your interaction with the S ervice and Your use of these features and the Apple Software and Services.  By using the Apple Software or Services, Yo u agree that Apple may transmit, collect, maintain, process and use these identifiers and information for the purpose o f providing the Apple Software and Services, including using such identifiers for account verification and anti-fraud m easures.  If You do not want to provide this information, do not use the device deployment and provisioning features of  the Apple Software or Services.
+
+C.       Privacy Policy 
+At all times Your information will be treated in accordance with Apple’s Privacy Policy, which can be viewed at: http:/ /www.apple.com/legal/privacy/.
+
+8.3     Severability; Waiver
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KIf a court of competent jurisdiction finds any clause of this Agreement to be unenforceable for any reason, that clause  of this Agreement shall be enforced to the maximum extent permissible so as to effect the intent of the parties, and t he remainder of this Agreement shall continue in full force and effect.  However, if applicable law prohibits or restri cts You from fully and specifically complying with the Sections of this Agreement entitled “Internal Use License and Re strictions” or prevents the enforceability of either of those Sections, this Agreement will immediately terminate and Y ou must immediately discontinue any use of the Apple Software and Apple Services as described in the Section entitled “ Term and Termination.”  Failure by Apple to enforce any provision of this Agreement shall not be deemed a waiver of fut ure enforcement of that or any other provision.  Any laws or regulations that provide that the language of a contract w ill be construed against the drafter will not apply to this Agreement.  Section headings are for convenience only and a re not to be considered in construing or interpreting this Agreement.
+
+8.4     Export Control 
+You may not use, export, re-export, import, sell or transfer the Apple Software and Apple Services except as authorized  by United States law, the laws of the jurisdiction in which You obtained the Apple Software and Apple Services, and an y other applicable laws and regulations.  In particular, but without limitation, the Apple Software and Apple Services  may not be exported or re-exported (a) into any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Departme nt’s list of Specially Designated Nationals or the U.S. Department of Commerce Denied Person’s List or Entity List or a ny other restricted party lists.  By using the Apple Software and Apple Services, You represent and warrant that You ar e not located in any such country or on any such list.  You also agree that You will not use the Apple Software and App le Services for any purposes prohibited by United States law, including, without limitation, the development, design, m anufacture or production of nuclear, chemical or biological weapons.  
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K
+8.5     Government End Users 
+The Apple Software and Apple Services and Documentation are “Commercial Items”, as that term is defined at 48 C.F.R. §2 .101, consisting of “Commercial Computer Software” and “Commercial Computer Software Documentation”, as such terms are  used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable.  Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §227.7 202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentatio n are being licensed to U.S. Government end users (a) only as Commercial Items and (b) with only those rights as are gr anted to all other end users pursuant to the terms and conditions herein.  Unpublished-rights reserved under the copyri ght laws of the United States.
+
+8.6     Dispute Resolution; Governing Law 
+Any litigation or other dispute resolution between You and Apple arising out of or relating to this Agreement, the Appl e Software and/or Apple Services will take place in the Northern District of California, and You and Apple hereby conse nt to the personal jurisdiction of and exclusive venue in the state and federal courts within that District with respec t any such litigation or dispute resolution.  This Agreement will be governed by and construed in accordance with the l aws of the United States and the State of California, except that body of California law concerning conflicts of law.   Notwithstanding the foregoing, the following shall apply as exceptions to You, but solely to the limited extent that Yo u are entering into this Agreement for the sole purpose of acting on behalf of Your entity:
+
+A.  If You (as an entity entering into this Agreement) are an agency, instrumentality or department of the federal gove rnment of the United States, then this Agreement shall be governed in accordance with the laws of the United States of  [7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[KAmerica, and in the absence of applicable federal law, the laws of the State of California will apply.  Further, and no twithstanding anything to the contrary in this Agreement (including but not limited to Section 4 (Indemnification)), al l claims, demands, complaints and disputes will be subject to the Contract Disputes Act (41 U.S.C. §§601-613), the Tuck er Act (28 U.S.C. § 1346(a) and § 1491), or the Federal Tort Claims Act (28 U.S.C. §§ 1346(b), 2401-2402, 2671-2672, 26 74-2680), as applicable, or other applicable governing authority;
+
+B.  If You (as an entity entering into this Agreement) are a U.S. public and accredited educational institution, then ( a) this Agreement will be governed and construed in accordance with the laws of the state (within the U.S.) in which Yo ur educational institution is domiciled, except that body of state law concerning conflicts of law; and (b) any litigat ion or other dispute resolution between You and Apple arising out of or relating to this Agreement, the Apple Software  and Apple Services, or Your relationship with Apple will take place in federal court within the Northern District of Ca lifornia, and You and Apple hereby consent to the personal jurisdiction of and exclusive venue of such District unless  such consent is expressly prohibited by the laws of the state in which Your educational institution is domiciled; and
+
+C.  If You (as an entity entering into this Agreement) are an international, intergovernmental organization that has be en conferred immunity from the jurisdiction of national courts through Your intergovernmental charter or agreement, the n any controversy or claim arising out of or relating to this Agreement, or the breach thereof, shall be determined by  arbitration administered by the International Centre for Dispute Resolution in accordance with its International Arbitr ation Rules.  The place of arbitration shall be London, England; the language shall be English; and the number of arbit rators shall be three.  Upon Apple’s request, You agree to provide evidence of Your status as an intergovernmental orga nization with such privileges and immunities.
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K
+This Agreement shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods,  the application of which is expressly excluded.
+
+8.7     Entire Agreement; Governing Language
+This Agreement constitutes the entire agreement between the parties with respect to the use of the Apple Software and A pple Services licensed hereunder and supersedes all prior understandings regarding such subject matter.  Notwithstandin g the foregoing, to the extent that You have entered into the Apple Developer Program License Agreement (PLA) with Appl e and are validly licensed by Apple to exercise additional rights, or to use additional features or functionality of th e Apple Software or Apple Services under the PLA, You acknowledge and agree that the PLA shall govern Your use of such  additional rights and privileges.  No amendment to or modification of this Agreement will be binding unless in writing  and signed by Apple.  The parties hereto confirm that they have requested that this Agreement and all related documents  be drafted in English.  Les parties ont exigé que le présent contrat et tous les documents connexes soient rédigés en  anglais. 
+
+
+EA1478
+5/24/2017
+[7mSoftware License Agreements Press 'space' for more, or 'q' to quit[27m[K[K[K[?1l>
+
+By typing 'agree' you are agreeing to the terms of the software license agreements. Type 'print' to print them or anything else to cancel, [agree, print, cancel]               agree
+
+You can view the license agreements in Xcode's About Box, or at /Applications/Xcode.app/Contents/Resources/English.lproj/License.rtf
+
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ sudo xcodebuild -licenses[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc[K
+clang: [0;1;31merror: [0mno input files[0m
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ ccsudo xcodebuild -licenses[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc[Kbrew install mysql-connector-c
+[4;33mWarning[0m: You are using OS X 10.14.
+We do not provide support for this pre-release version.
+You may encounter build failures or other breakages.
+[1;32m==>[1;39m Installing dependencies for mysql-connector-c: [1;32mcmake[0m[0m
+[1;32m==>[1;39m Installing mysql-connector-c dependency: [1;32mcmake[0m[0m
+[1;34m==>[1;39m Downloading https://cmake.org/files/v3.5/cmake-3.5.0.tar.gz[0m
+Already downloaded: /Library/Caches/Homebrew/cmake-3.5.0.tar.gz
+[1;34m==>[1;39m ./bootstrap --prefix=/usr/local/Cellar/cmake/3.5.0 --no-system-libs --parallel=8 --datadir=/share/cmake --docdir=/s[0m
+[1;34m==>[1;39m make[0m
+[1;34m==>[1;39m make install[0m
+[1;34m==>[1;39m Caveats[0m
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/cmake
+[1;34m==>[1;39m Summary[0m
+🍺  /usr/local/Cellar/cmake/3.5.0: 2,010 files, 28.4M, built in 3 minutes 52 seconds
+[1;32m==>[1;39m Installing [1;32mmysql-connector-c[0m[0m
+[1;34m==>[1;39m Downloading https://dev.mysql.com/get/Downloads/Connector-C/mysql-connector-c-6.1.6-src.tar.gz[0m
+[1;34m==>[1;39m Downloading from https://cdn.mysql.com//archives/mysql-connector-c/mysql-connector-c-6.1.6-src.tar.gz[0m
+######                                                                     9.2%###############                                                           22.0%########################                                                  33.8%##############################                                            42.8%#####################################                                     51.5%##########################################                                58.9%################################################                          67.4%######################################################                    76.1%#############################################################             85.5%#################################################################         91.2%#####################################################################     96.1%######################################################################## 100.0%
+[1;34m==>[1;39m cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/usr/local/Cella[0m
+[1;34m==>[1;39m make install[0m
+🍺  /usr/local/Cellar/mysql-connector-c/6.1.6: 69 files, 16.3M, built in 48 seconds
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ brew install mysql-connector-ccc[Ksudo xcodebuild -licenses[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccc[Kbrew install mysql-connector-c[7Ppip install mysqlclient
+Collecting mysqlclient
+  Using cached https://files.pythonhosted.org/packages/f7/a2/1230ebbb4b91f42ad6b646e59eb8855559817ad5505d81c1ca2b5a216040/mysqlclient-1.3.14.tar.gz
+Building wheels for collected packages: mysqlclient
+  Running setup.py bdist_wheel for mysqlclient ... [?25l- \ | / - done
+[?25h  Stored in directory: /Users/jwatts/Library/Caches/pip/wheels/6d/7d/cb/181963137c414938d4faac9a57c966fb3a6ef675c25641c41a
+Successfully built mysqlclient
+Installing collected packages: mysqlclient
+Successfully installed mysqlclient-1.3.14
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ pip install mysqlclient[K[K[K[K[K[K[K[K[K[K[Knetworkx
+Requirement already satisfied: networkx in /Applications/anaconda/envs/rstudio/lib/python3.7/site-packages (2.2)
+Requirement already satisfied: decorator>=4.3.0 in /Applications/anaconda/envs/rstudio/lib/python3.7/site-packages (from networkx) (4.3.0)
+]0;~/Dropbox/Website(rstudio) macbook-bro:Website jwatts$ 

@@ -1,0 +1,4 @@
+"0","```r
+comb <- rbind(segments, brandcls) 
+head(comb)
+```"

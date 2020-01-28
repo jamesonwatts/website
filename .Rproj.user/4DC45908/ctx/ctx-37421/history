@@ -1,0 +1,19 @@
+result = chardet.detect(f.read())  # or readline if the file is large
+blogdown:::new_post_addin()
+library(reticulate)
+use_python("/Applications/anaconda/bin/python", required = TRUE)
+library(reticulate)
+use_python("/Applications/anaconda/bin/python", required = TRUE)
+homedir = "/Users/jwatts/Dropbox/Website"
+library(reticulate)
+use_python("/Applications/anaconda/bin/python", required = TRUE)
+homedir = "/Users/jwatts/Dropbox/Website"
+library(reticulate)
+use_python("/Applications/anaconda/bin/python", required = TRUE)
+blogdown:::serve_site()
+blogdown:::serve_site()
+blogdown:::serve_site()
+library(reticulate)
+use_python("/Applications/anaconda/bin/python", required = TRUE)
+blogdown:::serve_site()
+setwd("~/Dropbox/Website")

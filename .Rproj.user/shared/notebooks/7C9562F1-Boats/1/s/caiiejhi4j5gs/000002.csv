@@ -1,0 +1,10 @@
+"0","```r
+boats <- store(boats, result, name = \"PC\")
+names(boats)[names(boats) == 'PC1'] <- 'Convenient'
+names(boats)[names(boats) == 'PC2'] <- 'Cool'
+names(boats)[names(boats) == 'PC3'] <- 'Reliable'
+boats$Brand <- as.factor(boats$Brand_id)
+boats$Segment <- as.factor(boats$K.Cluster)
+boatsR <- boats[,c('Brand','Segment','Convenient','Cool','Reliable')]
+head(boatsR)
+```"

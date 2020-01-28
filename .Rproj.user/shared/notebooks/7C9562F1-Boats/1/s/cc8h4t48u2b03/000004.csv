@@ -1,0 +1,7 @@
+"1","
+Between cluster heterogeneity accounts for 42.51% of the
+total heterogeneity in the data (higher is better).
+"
+"0","```r
+plot(result, plots = \"density\", custom = FALSE)
+```"

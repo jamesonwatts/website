@@ -1,0 +1,23 @@
+"0","```r
+result <- full_factor(
+  boats, 
+  vars = c(
+    \"Q_1\", \"Q_2\", \"Q_3\", \"Q_4\", \"Q_5\", \"Q_6\", \"Q_7\", \"Q_8\", 
+    \"Q_9\", \"Q_10\", \"Q_11\", \"Q_12\", \"Q_13\", \"Q_14\", \"Q_15\", \"Q_16\", 
+    \"Q_17\", \"Q_18\", \"Q_19\", \"Q_20\", \"Q_21\", \"Q_22\", \"Q_23\", 
+    \"Q_24\", \"Q_25\", \"Q_26\", \"Q_27\"
+  ), 
+  nr_fact = 3
+)
+summary(result, cutoff = 0.5, fsort = TRUE, dec = 2)
+```"
+"1","Factor analysis
+Data        : boats 
+Variables   : Q_1, Q_2, Q_3, Q_4, Q_5, Q_6, Q_7, Q_8, Q_9, Q_10, Q_11, Q_12, Q_13, Q_14, Q_15, Q_16, Q_17, Q_18, Q_19, Q_20, Q_21, Q_22, Q_23, Q_24, Q_25, Q_26, Q_27 
+Factors     : 3 
+Method      : PCA 
+Rotation    : varimax 
+Observations: 2,813 
+
+Factor loadings:
+"

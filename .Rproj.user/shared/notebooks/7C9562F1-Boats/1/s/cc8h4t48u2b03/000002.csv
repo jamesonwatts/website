@@ -1,0 +1,18 @@
+"0","```r
+result <- kclus(
+  brands, 
+  vars = c(\"Convenient.mean\",\"Cool.mean\",\"Reliable.mean\"), 
+  hc_init = FALSE,
+  nr_clus = 3
+)
+summary(result, dec = 2)
+```"
+"1","K-means cluster analysis
+Data         : brands 
+Variables    : Convenient.mean, Cool.mean, Reliable.mean 
+Clustering by: K-means
+Observations : 57 
+Generated    : 3 clusters of sizes 28 | 23 | 6 
+
+Cluster means:
+"

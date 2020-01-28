@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>natural language processing on Jameson Watts, Ph.D.</title>
+    <link>/tags/natural-language-processing/</link>
+    <description>Recent content in natural language processing on Jameson Watts, Ph.D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 27 Feb 2018 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="/tags/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trend Spotting: Using Text Analysis to Model Market Dynamics</title>
+      <link>/publication/trend-spotting/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 -0800</pubDate>
+      
+      <guid>/publication/trend-spotting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

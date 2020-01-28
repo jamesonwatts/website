@@ -1,0 +1,30 @@
+{
+    "data" : [
+        "\nR version 3.5.1 (2018-07-02) -- \"Feather Spray\"\nCopyright (C) 2018 The R Foundation for Statistical Computing\nPlatform: x86_64-apple-darwin15.6.0 (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\n",
+        "Type 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n[Workspace loaded from ~/Dropbox/Website/.RData]\n\n",
+        "> ",
+        "blogdown:::serve_site()",
+        "Rendering content/post/2019-03-18-a-new-database-for-context-sensitive-semantic-relatedness.Rmd\n",
+        "Quitting from lines 22-32 (2019-03-18-a-new-database-for-context-sensitive-semantic-relatedness.Rmd) \n",
+        "Error in eval(x, envir = envir) : object 'false' not found\nCalls: local ... process_group.block -> call_block -> eval_lang -> eval -> eval\n",
+        "Execution halted\n",
+        "Error in render_page(f) : \n  Failed to render 'content/post/2019-03-18-a-new-database-for-context-sensitive-semantic-relatedness.Rmd'\n",
+        "> ",
+        "setwd(\"~/Dropbox/Website\")",
+        "\nRestarting R session...\n\n"
+    ],
+    "type" : [
+        2,
+        2,
+        0,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        0,
+        1,
+        2
+    ]
+}

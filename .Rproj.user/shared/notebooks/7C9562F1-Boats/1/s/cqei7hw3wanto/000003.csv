@@ -1,0 +1,12 @@
+"0","```r
+segments <- summaryBy(Convenient + Cool + Reliable ~ Segment, data=boats)
+names(segments)[names(segments) == 'Convenient.mean'] <- 'Convenient'
+names(segments)[names(segments) == 'Cool.mean'] <- 'Cool'
+names(segments)[names(segments) == 'Reliable.mean'] <- 'Reliable'
+for (row in 1:nrow(segments)) {
+  segments[row,'Group'] <- paste('S',segments[row,'Segment'],sep=\".\")
+}
+segments$Type <- \"Customer\"
+segments <- segments[,-1]
+head(segments)
+```"
